@@ -24,25 +24,25 @@ const Home = () => {
     {
       icon: Database,
       title: t('dataScience'),
-      description: 'Nous développons des modèles de machine learning et d\'intelligence artificielle pour extraire des insights précieux de vos données.',
+      description: t('dataScienceDesc'),
       color: '#3b82f6'
     },
     {
       icon: Code,
       title: t('dataEngineering'),
-      description: 'Nous concevons et construisons des architectures de données modernes et évolutives pour optimiser vos processus métier.',
+      description: t('dataEngineeringDesc'),
       color: '#10b981'
     },
     {
       icon: BarChart3,
       title: t('dataAnalytics'),
-      description: 'Nous transformons vos données brutes en analyses actionnables pour vous aider à prendre des décisions éclairées.',
+      description: t('dataAnalyticsDesc'),
       color: '#f59e0b'
     },
     {
       icon: Cpu,
       title: t('softwareDevelopment'),
-      description: 'Nous développons des applications robustes et innovantes adaptées à vos besoins spécifiques.',
+      description: t('softwareDevelopmentDesc'),
       color: '#8b5cf6'
     }
   ]
@@ -50,31 +50,31 @@ const Home = () => {
   const features = [
     {
       icon: Users,
-      title: 'Équipe Expérimentée',
-      description: 'Nos fondateurs cumulent de nombreuses années d\'expérience dans la mise en œuvre de solutions basées sur les données.'
+      title: t('experiencedTeam'),
+      description: t('experiencedTeamDesc')
     },
     {
       icon: Target,
-      title: 'Solutions Sur Mesure',
-      description: 'Nous allions expertise technique et compréhension approfondie des processus métier.'
+      title: t('customSolutions'),
+      description: t('customSolutionsDesc')
     },
     {
       icon: Award,
-      title: 'Excellence Technique',
-      description: 'Nous maintenons les plus hauts standards de qualité dans tous nos projets.'
+      title: t('technicalExcellence'),
+      description: t('technicalExcellenceDesc')
     },
     {
       icon: TrendingUp,
-      title: 'Innovation Continue',
-      description: 'Nous restons à la pointe des dernières technologies et méthodologies.'
+      title: t('continuousInnovation'),
+      description: t('continuousInnovationDesc')
     }
   ]
 
   const stats = [
-    { number: '50+', label: 'Projets Réalisés' },
-    { number: '25+', label: 'Clients Satisfaits' },
-    { number: '5+', label: 'Années d\'Expérience' },
-    { number: '100%', label: 'Taux de Réussite' }
+    { number: '50+', label: t('projectsCompleted') },
+    { number: '25+', label: t('satisfiedClients') },
+    { number: '5+', label: t('yearsExperience') },
+    { number: '100%', label: t('successRate') }
   ]
 
   return (
@@ -109,8 +109,8 @@ const Home = () => {
       <section className="services-section section">
         <div className="container">
           <div className="section-header">
-            <h2>Nos Services</h2>
-            <p>Découvrez notre gamme complète de services informatiques</p>
+            <h2>{t('ourServices')}</h2>
+            <p>{t('discoverServices')}</p>
           </div>
           <div className="services-grid grid grid-4">
             {services.map((service, index) => (
@@ -121,7 +121,7 @@ const Home = () => {
                 <h3>{service.title}</h3>
                 <p>{service.description}</p>
                 <Link to="/services" className="service-link">
-                  En savoir plus <ArrowRight size={16} />
+                  {t('learnMoreLink')} <ArrowRight size={16} />
                 </Link>
               </div>
             ))}
@@ -147,8 +147,8 @@ const Home = () => {
       <section className="features-section section">
         <div className="container">
           <div className="section-header">
-            <h2>Pourquoi Nous Choisir</h2>
-            <p>Découvrez ce qui nous distingue de la concurrence</p>
+            <h2>{t('whyChooseUs')}</h2>
+            <p>{t('whatMakesUsDifferent')}</p>
           </div>
           <div className="features-grid grid grid-2">
             {features.map((feature, index) => (
@@ -168,14 +168,14 @@ const Home = () => {
       <section className="cta-section section">
         <div className="container">
           <div className="cta-content">
-            <h2>Prêt à Transformer Votre Entreprise ?</h2>
-            <p>Contactez-nous dès aujourd'hui pour discuter de vos besoins en services informatiques</p>
+            <h2>{t('readyToTransform')}</h2>
+            <p>{t('contactToday')}</p>
             <div className="cta-actions">
               <Link to="/contact" className="btn btn-primary">
                 {t('contact')}
               </Link>
               <Link to="/services" className="btn btn-secondary">
-                Découvrir nos services
+                {t('discoverOurServices')}
               </Link>
             </div>
           </div>
@@ -186,12 +186,12 @@ const Home = () => {
       <section className="tech-section section">
         <div className="container">
           <div className="section-header">
-            <h2>Technologies & Outils</h2>
-            <p>Nous utilisons les technologies les plus modernes pour vos projets</p>
+            <h2>{t('technologiesTools')}</h2>
+            <p>{t('modernTechnologies')}</p>
           </div>
           <div className="tech-grid">
             <div className="tech-category">
-              <h3>Data Science & ML</h3>
+              <h3>{t('dataScienceML')}</h3>
               <div className="tech-items">
                 <span className="tech-item">Python</span>
                 <span className="tech-item">TensorFlow</span>
@@ -200,7 +200,7 @@ const Home = () => {
               </div>
             </div>
             <div className="tech-category">
-              <h3>Data Engineering</h3>
+              <h3>{t('dataEngineering')}</h3>
               <div className="tech-items">
                 <span className="tech-item">Apache Spark</span>
                 <span className="tech-item">Kafka</span>
@@ -209,7 +209,7 @@ const Home = () => {
               </div>
             </div>
             <div className="tech-category">
-              <h3>Développement</h3>
+              <h3>{t('development')}</h3>
               <div className="tech-items">
                 <span className="tech-item">React</span>
                 <span className="tech-item">Node.js</span>

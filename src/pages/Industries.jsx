@@ -1,6 +1,7 @@
 import React from 'react'
 import { useLanguage } from '../contexts/LanguageContext'
-import { Heart, DollarSign, ShoppingCart, Factory } from 'lucide-react'
+import { Heart, DollarSign, ShoppingCart, Factory, ArrowRight } from 'lucide-react'
+import './Industries.css'
 
 const Industries = () => {
   const { t } = useLanguage()
@@ -9,26 +10,26 @@ const Industries = () => {
     {
       icon: Heart,
       title: t('healthcare'),
-      description: 'Solutions innovantes pour améliorer les soins de santé et optimiser les processus médicaux.',
-      solutions: ['Analyse prédictive des maladies', 'Gestion des dossiers patients', 'Optimisation des ressources']
+      description: t('healthcareDesc'),
+      solutions: [t('diseasePrediction'), t('patientRecords'), t('resourceOptimization')]
     },
     {
       icon: DollarSign,
       title: t('finance'),
-      description: 'Technologies avancées pour sécuriser les transactions et optimiser les services financiers.',
-      solutions: ['Détection de fraude', 'Analyse de risque', 'Trading algorithmique']
+      description: t('financeDesc'),
+      solutions: [t('fraudDetection'), t('riskAnalysis'), t('algorithmicTrading')]
     },
     {
       icon: ShoppingCart,
       title: t('retail'),
-      description: 'Solutions e-commerce et analytics pour optimiser l\'expérience client et les ventes.',
-      solutions: ['Recommandation produits', 'Analyse comportementale', 'Optimisation des stocks']
+      description: t('retailDesc'),
+      solutions: [t('productRecommendation'), t('behavioralAnalysis'), t('inventoryOptimization')]
     },
     {
       icon: Factory,
       title: t('manufacturing'),
-      description: 'IoT et analytics pour améliorer la productivité et réduire les coûts de production.',
-      solutions: ['Maintenance prédictive', 'Optimisation de la chaîne logistique', 'Qualité automatisée']
+      description: t('manufacturingDesc'),
+      solutions: [t('predictiveMaintenance'), t('supplyChainOptimization'), t('automatedQuality')]
     }
   ]
 
@@ -38,7 +39,7 @@ const Industries = () => {
         <div className="container">
           <div className="section-header">
             <h1>{t('industriesTitle')}</h1>
-            <p>Nous servons divers secteurs d'activité avec des solutions adaptées</p>
+            <p>{t('industriesSubtitle')}</p>
           </div>
         </div>
       </section>
@@ -60,6 +61,22 @@ const Industries = () => {
                 </ul>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Section CTA */}
+      <section className="section cta-section-dark">
+        <div className="container">
+          <div className="cta-content">
+            <h2>{t('readyToTransform')}</h2>
+            <p>{t('contactForIndustry')}</p>
+            <div className="cta-actions">
+              <a href="/contact" className="btn btn-primary">
+                {t('contact')}
+                <ArrowRight size={20} />
+              </a>
+            </div>
           </div>
         </div>
       </section>

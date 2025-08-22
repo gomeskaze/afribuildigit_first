@@ -9,43 +9,43 @@ const About = () => {
   const values = [
     {
       icon: Target,
-      title: 'Excellence',
-      description: 'Nous visons l\'excellence dans tout ce que nous faisons, en maintenant les plus hauts standards de qualité.'
+      title: t('excellence'),
+      description: t('excellenceDesc')
     },
     {
       icon: Heart,
-      title: 'Passion',
-      description: 'Nous sommes passionnés par la technologie et l\'innovation, et nous transmettons cette passion à nos clients.'
+      title: t('passion'),
+      description: t('passionDesc')
     },
     {
       icon: Users,
-      title: 'Collaboration',
-      description: 'Nous croyons en la puissance de la collaboration et travaillons en étroite relation avec nos clients.'
+      title: t('collaboration'),
+      description: t('collaborationDesc')
     },
     {
       icon: Zap,
-      title: 'Innovation',
-      description: 'Nous restons à la pointe des dernières technologies pour offrir des solutions innovantes.'
+      title: t('innovation'),
+      description: t('innovationDesc')
     }
   ]
 
   const team = [
     {
-      name: 'Jean-Pierre Nguemo',
-      role: 'CEO & Co-fondateur',
-      description: 'Expert en science des données avec plus de 10 ans d\'expérience dans l\'industrie.',
+      name: 'Joel Kaze',
+      role: t('ceoFounder'),
+      description: t('ceoDesc'),
       image: '/team/ceo.jpg'
     },
     {
-      name: 'Marie-Claire Mbarga',
-      role: 'CTO & Co-fondatrice',
-      description: 'Ingénieure en développement logiciel spécialisée dans les architectures cloud.',
+      name: 'Sammy Ndzelen',
+      role: t('ctoFounder'),
+      description: t('ctoDesc'),
       image: '/team/cto.jpg'
     },
     {
       name: 'David Etoa',
-      role: 'Lead Data Scientist',
-      description: 'Spécialiste en machine learning et intelligence artificielle.',
+      role: t('leadDataScientist'),
+      description: t('dataScientistDesc'),
       image: '/team/data-scientist.jpg'
     }
   ]
@@ -70,37 +70,31 @@ const About = () => {
       <section className="history-section section">
         <div className="container">
           <div className="section-header">
-            <h2>Notre Histoire</h2>
-            <p>Découvrez le parcours qui nous a menés jusqu'ici</p>
+            <h2>{t('ourHistory')}</h2>
+            <p>{t('historySubtitle')}</p>
           </div>
           <div className="history-content">
             <div className="history-text">
-              <h3>Une vision née de l'expérience</h3>
+              <h3>{t('visionFromExperience')}</h3>
               <p>
-                AfriBuilDigit Group est née de la vision de créer une entreprise de services 
-                informatiques qui allie expertise technique et compréhension approfondie des 
-                processus métier. Nos fondateurs, après avoir travaillé dans de grandes 
-                entreprises internationales, ont décidé de mettre leur expertise au service 
-                des entreprises africaines.
+                {t('visionDescription')}
               </p>
               <p>
-                Basée à Yaoundé, au Cameroun, notre entreprise s'est rapidement imposée 
-                comme un partenaire de confiance pour les organisations cherchant à 
-                transformer leurs données en avantages concurrentiels.
+                {t('basedInYaounde')}
               </p>
             </div>
             <div className="history-stats">
               <div className="stat-item">
                 <div className="stat-number">2020</div>
-                <div className="stat-label">Année de création</div>
+                <div className="stat-label">{t('foundingYear')}</div>
               </div>
               <div className="stat-item">
                 <div className="stat-number">3</div>
-                <div className="stat-label">Fondateurs</div>
+                <div className="stat-label">{t('founders')}</div>
               </div>
               <div className="stat-item">
                 <div className="stat-number">50+</div>
-                <div className="stat-label">Projets réalisés</div>
+                <div className="stat-label">{t('projectsCompleted')}</div>
               </div>
             </div>
           </div>
@@ -111,8 +105,8 @@ const About = () => {
       <section className="values-section section">
         <div className="container">
           <div className="section-header">
-            <h2>Nos Valeurs</h2>
-            <p>Les principes qui guident nos actions au quotidien</p>
+            <h2>{t('ourValues')}</h2>
+            <p>{t('valuesSubtitle')}</p>
           </div>
           <div className="values-grid grid grid-2">
             {values.map((value, index) => (
@@ -132,8 +126,8 @@ const About = () => {
       <section className="team-section section">
         <div className="container">
           <div className="section-header">
-            <h2>Notre Équipe</h2>
-            <p>Rencontrez les experts qui font d'AfriBuilDigit Group votre partenaire de confiance</p>
+            <h2>{t('ourTeam')}</h2>
+            <p>{t('teamSubtitle')}</p>
           </div>
           <div className="team-grid grid grid-3">
             {team.map((member, index) => (
@@ -159,25 +153,22 @@ const About = () => {
         <div className="container">
           <div className="mission-content">
             <div className="mission-text">
-              <h2>Notre Mission</h2>
+              <h2>{t('ourMission')}</h2>
               <p>
-                Nous aidons nos clients à prendre des décisions fondées sur les données 
-                et à mettre en œuvre efficacement des solutions numériques. Qu'il s'agisse 
-                d'architectes de données modernes, d'applications de machine learning ou 
-                de développement back-end robuste, nous sommes votre partenaire de confiance.
+                {t('missionDescription')}
               </p>
               <div className="mission-points">
                 <div className="mission-point">
                   <Globe size={24} />
-                  <span>Solutions adaptées au contexte africain</span>
+                  <span>{t('africanContext')}</span>
                 </div>
                 <div className="mission-point">
                   <Award size={24} />
-                  <span>Excellence technique reconnue</span>
+                  <span>{t('technicalExcellence')}</span>
                 </div>
                 <div className="mission-point">
                   <Target size={24} />
-                  <span>Résultats mesurables et durables</span>
+                  <span>{t('measurableResults')}</span>
                 </div>
               </div>
             </div>

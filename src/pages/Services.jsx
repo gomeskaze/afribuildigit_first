@@ -10,56 +10,56 @@ const Services = () => {
     {
       icon: Database,
       title: t('dataScience'),
-      description: 'Nous développons des modèles de machine learning et d\'intelligence artificielle pour extraire des insights précieux de vos données.',
+      description: t('dataScienceDesc'),
       features: [
-        'Modèles de prédiction avancés',
-        'Analyse de sentiment',
-        'Recommandation personnalisée',
-        'Computer Vision',
-        'Traitement du langage naturel',
-        'Optimisation des processus'
+        t('predictionModels'),
+        t('sentimentAnalysis'),
+        t('personalizedRecommendation'),
+        t('computerVision'),
+        t('naturalLanguageProcessing'),
+        t('processOptimization')
       ],
       color: '#3b82f6'
     },
     {
       icon: Code,
       title: t('dataEngineering'),
-      description: 'Nous concevons et construisons des architectures de données modernes et évolutives pour optimiser vos processus métier.',
+      description: t('dataEngineeringDesc'),
       features: [
-        'Architectures cloud-native',
-        'Pipelines de données ETL/ELT',
-        'Data lakes et data warehouses',
-        'Streaming de données en temps réel',
-        'Gestion de la qualité des données',
-        'Monitoring et alerting'
+        t('cloudNativeArchitectures'),
+        t('dataPipelines'),
+        t('dataLakes'),
+        t('realTimeStreaming'),
+        t('dataQualityManagement'),
+        t('monitoringAlerting')
       ],
       color: '#10b981'
     },
     {
       icon: BarChart3,
       title: t('dataAnalytics'),
-      description: 'Nous transformons vos données brutes en analyses actionnables pour vous aider à prendre des décisions éclairées.',
+      description: t('dataAnalyticsDesc'),
       features: [
-        'Tableaux de bord interactifs',
-        'Rapports automatisés',
-        'Analyse prédictive',
-        'Segmentation client',
-        'KPI et métriques business',
-        'Visualisation de données'
+        t('interactiveDashboards'),
+        t('automatedReports'),
+        t('predictiveAnalysis'),
+        t('customerSegmentation'),
+        t('businessKPIs'),
+        t('dataVisualization')
       ],
       color: '#f59e0b'
     },
     {
       icon: Cpu,
       title: t('softwareDevelopment'),
-      description: 'Nous développons des applications robustes et innovantes adaptées à vos besoins spécifiques.',
+      description: t('softwareDevelopmentDesc'),
       features: [
-        'Applications web modernes',
-        'APIs RESTful et GraphQL',
-        'Applications mobiles',
-        'Systèmes de gestion',
-        'Intégrations tierces',
-        'Maintenance et support'
+        t('modernWebApps'),
+        t('restfulAPIs'),
+        t('mobileApps'),
+        t('managementSystems'),
+        t('thirdPartyIntegrations'),
+        t('maintenanceSupport')
       ],
       color: '#8b5cf6'
     }
@@ -71,8 +71,8 @@ const Services = () => {
       <section className="services-hero section">
         <div className="container">
           <div className="section-header">
-            <h1>Nos Services</h1>
-            <p>Découvrez notre gamme complète de services informatiques spécialisés</p>
+            <h1>{t('servicesTitle')}</h1>
+            <p>{t('servicesSubtitle')}</p>
           </div>
         </div>
       </section>
@@ -93,7 +93,7 @@ const Services = () => {
                   </div>
                 </div>
                 <div className="service-features">
-                  <h3>Ce que nous offrons :</h3>
+                  <h3>{t('whatWeOffer')}</h3>
                   <div className="features-grid">
                     {service.features.map((feature, featureIndex) => (
                       <div key={featureIndex} className="feature-item">
@@ -110,11 +110,11 @@ const Services = () => {
       </section>
 
       {/* Section CTA */}
-      <section className="services-cta section">
+      <section className="section cta-section-dark" >
         <div className="container">
           <div className="cta-content">
-            <h2>Prêt à commencer votre projet ?</h2>
-            <p>Contactez-nous pour discuter de vos besoins et obtenir un devis personnalisé</p>
+            <h2>{t('readyToStart')}</h2>
+            <p>{t('contactForQuote')}</p>
             <div className="cta-actions">
               <a href="/contact" className="btn btn-primary">
                 {t('contact')}
