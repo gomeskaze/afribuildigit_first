@@ -138,6 +138,8 @@ const translations = {
     email: 'Email',
     message: 'Message',
     send: 'Envoyer',
+    contactInfo: 'Informations de contact',
+    contactInfoDesc: 'N\'hésitez pas à nous contacter pour toute question. Nous serons ravis de vous accompagner et de vous conseiller personnellement. Nous prendrons le temps d\'écouter vos besoins et de vous proposer, à vous et à votre entreprise, des solutions sur mesure qui vous mèneront au succès. Veuillez utiliser notre formulaire pour nous contacter. Nous vous répondrons dans les plus brefs délais !',
     
     // Industries
     industriesTitle: 'Nos Industries',
@@ -314,6 +316,8 @@ const translations = {
     email: 'Email',
     message: 'Message',
     send: 'Send',
+    contactInfo: 'Contact Information',
+    contactInfoDesc: 'Please contact us for any questions. We will be happy to accompany you and advise you personally. We will take the time to listen to your needs and offer you, to you and your company, tailored solutions that will lead you to success. Please use our form to contact us. We will respond to you in the shortest possible time!',
     
     // Industries
     industriesTitle: 'Our Industries',
@@ -490,6 +494,8 @@ const translations = {
     email: 'E-Mail',
     message: 'Nachricht',
     send: 'Senden',
+    contactInfo: 'Kontaktinformationen',
+    contactInfoDesc: 'Bitte kontaktieren Sie uns für Fragen. Wir freuen uns, Ihnen persönlich zu helfen und zu beraten. Wir nehmen uns die Zeit, Ihre Bedürfnisse zu hören und Ihnen, Ihnen und Ihrer Firma, angepasste Lösungen anzubieten, die Sie zum Erfolg führen. Bitte verwenden Sie unsere Formulare, um uns zu kontaktieren. Wir werden Ihnen in den kürzesten Zeiten antworten!',
     
     // Industries
     industriesTitle: 'Unsere Branchen',

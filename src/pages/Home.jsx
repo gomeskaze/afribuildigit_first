@@ -83,16 +83,16 @@ const Home = () => {
       <section className="hero-section">
         <div className="container">
           <div className="hero-content">
-            <h1 className="hero-title fade-in">
+            <h1 className="hero-title">
               {t('heroTitle')}
             </h1>
-            <p className="hero-subtitle fade-in">
+            <p className="hero-subtitle">
               {t('heroSubtitle')}
             </p>
-            <p className="hero-description fade-in">
+            <p className="hero-description">
               {t('heroDescription')}
             </p>
-            <div className="hero-actions fade-in">
+            <div className="hero-actions">
               <Link to="/contact" className="btn btn-primary">
                 {t('getStarted')}
                 <ArrowRight size={20} />
@@ -114,7 +114,7 @@ const Home = () => {
           </div>
           <div className="services-grid grid grid-4">
             {services.map((service, index) => (
-              <div key={index} className="service-card card fade-in">
+              <div key={index} className="service-card card">
                 <div className="service-icon" style={{ color: service.color }}>
                   <service.icon size={48} />
                 </div>
@@ -134,7 +134,7 @@ const Home = () => {
         <div className="container">
           <div className="stats-grid">
             {stats.map((stat, index) => (
-              <div key={index} className="stat-item fade-in">
+              <div key={index} className="stat-item">
                 <div className="stat-number">{stat.number}</div>
                 <div className="stat-label">{stat.label}</div>
               </div>
@@ -152,7 +152,7 @@ const Home = () => {
           </div>
           <div className="features-grid grid grid-2">
             {features.map((feature, index) => (
-              <div key={index} className="feature-card card fade-in">
+              <div key={index} className="feature-card card">
                 <div className="feature-icon">
                   <feature.icon size={40} />
                 </div>

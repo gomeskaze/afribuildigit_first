@@ -1,15 +1,17 @@
 import React, { useState } from 'react'
 import { useLanguage } from '../contexts/LanguageContext'
-import { Mail, Phone, MapPin, Send } from 'lucide-react'
+import { Mail, Phone, MapPin, Send, Paperclip } from 'lucide-react'
+import './Contact.css'
 
 const Contact = () => {
   const { t } = useLanguage()
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
+    fullName: '',
+    businessEmail: '',
+    phoneNumber: '',
     message: ''
   })
+  const [acceptedTerms, setAcceptedTerms] = useState(false)
 
   const handleChange = (e) => {
     setFormData({
@@ -20,6 +22,10 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
+    if (!acceptedTerms) {
+      alert('Veuillez accepter les conditions générales et la politique de confidentialité.')
+      return
+    }
     // Ici vous pouvez ajouter la logique d'envoi du formulaire
     console.log('Form submitted:', formData)
     alert('Message envoyé ! Nous vous contacterons bientôt.')
@@ -61,8 +67,8 @@ const Contact = () => {
         <div className="container">
           <div className="contact-content">
             <div className="contact-info-section">
-              <h2>Informations de contact</h2>
-              <p>N'hésitez pas à nous contacter pour toute question ou demande de devis.</p>
+              <h2> {t('contactInfo')}</h2>
+              <p>{t('contactInfoDesc')}</p>
               
               <div className="contact-info-list">
                 {contactInfo.map((info, index) => (
@@ -87,42 +93,42 @@ const Contact = () => {
               <h2>Envoyez-nous un message</h2>
               <form onSubmit={handleSubmit} className="contact-form">
                 <div className="form-group">
-                  <label htmlFor="name">{t('name')} *</label>
+                  <label htmlFor="fullName">Full name *</label>
                   <input
                     type="text"
-                    id="name"
-                    name="name"
-                    value={formData.name}
+                    id="fullName"
+                    name="fullName"
+                    value={formData.fullName}
                     onChange={handleChange}
                     required
                   />
                 </div>
 
                 <div className="form-group">
-                  <label htmlFor="email">{t('email')} *</label>
+                  <label htmlFor="businessEmail">Business Email *</label>
                   <input
                     type="email"
-                    id="email"
-                    name="email"
-                    value={formData.email}
+                    id="businessEmail"
+                    name="businessEmail"
+                    value={formData.businessEmail}
                     onChange={handleChange}
                     required
                   />
                 </div>
 
                 <div className="form-group">
-                  <label htmlFor="subject">Sujet</label>
+                  <label htmlFor="phoneNumber">Phone number</label>
                   <input
-                    type="text"
-                    id="subject"
-                    name="subject"
-                    value={formData.subject}
+                    type="tel"
+                    id="phoneNumber"
+                    name="phoneNumber"
+                    value={formData.phoneNumber}
                     onChange={handleChange}
                   />
                 </div>
 
                 <div className="form-group">
-                  <label htmlFor="message">{t('message')} *</label>
+                  <label htmlFor="message">Message *</label>
                   <textarea
                     id="message"
                     name="message"
@@ -131,6 +137,39 @@ const Contact = () => {
                     onChange={handleChange}
                     required
                   ></textarea>
+                </div>
+
+                <div className="form-actions">
+                  <div className="attach-files">
+                    <div className="attach-header">
+                      <Paperclip size={20} className="attach-icon" />
+                      <span>Attach files</span>
+                    </div>
+                    <p className="attach-description">
+                      Up to 3 attachments. The total size of attachments should not exceed 5Mb.
+                    </p>
+                  </div>
+
+                  <div className="required-fields">
+                    <span>Required fields *</span>
+                  </div>
+                </div>
+
+                <div className="terms-section">
+                  <label className="terms-checkbox">
+                    <input
+                      type="checkbox"
+                      checked={acceptedTerms}
+                      onChange={(e) => setAcceptedTerms(e.target.checked)}
+                      required
+                    />
+                    <span className="checkbox-text">
+                      I have read and accepted the{' '}
+                      <a href="/terms" className="terms-link">Terms & Conditions</a>
+                      {' '}and{' '}
+                      <a href="/privacy" className="terms-link">Privacy Policy *</a>
+                    </span>
+                  </label>
                 </div>
 
                 <button type="submit" className="btn btn-primary">
