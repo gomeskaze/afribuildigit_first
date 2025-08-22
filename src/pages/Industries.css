@@ -5,7 +5,7 @@
 }
 
 .industries .hero-section {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
   color: white;
   padding: 80px 0;
   text-align: center;
@@ -51,7 +51,7 @@
 }
 
 .industries .industry-icon {
-  color: #667eea;
+  color: #8b5cf6;
   margin-bottom: 1.5rem;
 }
 
@@ -83,7 +83,7 @@
   content: "✓";
   position: absolute;
   left: 0;
-  color: #667eea;
+  color: #8b5cf6;
   font-weight: bold;
 }
 
@@ -118,7 +118,7 @@
 }
 
 .cta-section-dark .btn-primary {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
   color: white;
   padding: 12px 24px;
   border-radius: 8px;
@@ -134,7 +134,7 @@
 
 .cta-section-dark .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 8px 25px rgba(139, 92, 246, 0.4);
 }
 
 /* Responsive Design */

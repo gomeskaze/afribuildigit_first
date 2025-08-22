@@ -25,7 +25,7 @@ const Home = () => {
       icon: Database,
       title: t('dataScience'),
       description: t('dataScienceDesc'),
-      color: '#3b82f6'
+      color: '#8b5cf6'
     },
     {
       icon: Code,

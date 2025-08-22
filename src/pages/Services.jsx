@@ -19,7 +19,7 @@ const Services = () => {
         t('naturalLanguageProcessing'),
         t('processOptimization')
       ],
-      color: '#3b82f6'
+      color: '#8b5cf6'
     },
     {
       icon: Code,
