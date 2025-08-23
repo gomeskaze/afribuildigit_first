@@ -14,7 +14,8 @@ import {
   Shield,
   Zap,
   Globe,
-  Brain
+  Brain,
+  Cloud
 } from 'lucide-react'
 import './Home.css'
 
@@ -23,28 +24,39 @@ const Home = () => {
 
   const services = [
     {
-      icon: Brain,
-      title: t('aiMlDataScience'),
-      description: t('dataScienceDesc'),
+      icon: Code,
+      title: t('softwareDevelopment'),
+      description: t('softwareDevelopmentDesc'),
+      color: '#8b5cf6'
+    },
+    {
+      icon: TrendingUp,
+      title: t('digitale'),
+      description: t('softwareDevelopmentDesc'),
       color: '#8b5cf6'
     },
     {
       icon: Database,
-      title: t('cloudDataEngineering'),
+      title: t('dataAnalytics'),
       description: t('dataEngineeringDesc'),
       color: '#10b981'
     },
     {
-      icon: BarChart3,
-      title: t('dataAnalyticsServices'),
-      description: t('dataAnalyticsDesc'),
-      color: '#f59e0b'
+      icon: Database,
+      title: t('consulting'),
+      description: t('dataEngineeringDesc'),
+      color: '#10b981'
     },
     {
-      icon: Cpu,
-      title: t('softwareEngineering'),
+      icon: Cloud,
+      title: t('cloudsolutions'),
       description: t('softwareDevelopmentDesc'),
       color: '#8b5cf6'
+    }, {
+      icon: BarChart3,
+      title: t('security'),
+      description: t('dataAnalyticsDesc'),
+      color: '#f59e0b'
     }
   ]
 

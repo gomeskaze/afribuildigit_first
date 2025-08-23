@@ -50,6 +50,12 @@ const translations = {
     successRate: 'Taux de Réussite',
     
     // Services
+    softwareDevelopment: 'Software Engineering',
+    digitale: 'Digitalisation',
+    consulting: 'KI Consulting et Implementation',
+    cloudsolutions: 'Cloud Solutions & Services',
+    dataAnalytics: 'Analyses et Données',
+    security: 'Cyber-Sécurité',
     servicesTitle: 'Nos Services',
     servicesSubtitle: 'Grâce à notre expertise technique approfondie, des outils et des méthodes modernes, nous développons des solutions avancées et sécurisées, de manière continue et efficace. Nous vous accompagnons dans la construction de votre avenir. De l\'idée à la mise en œuvre. Découvrez notre gamme complète de services informatiques spécialisés',
     whatWeOffer: 'Ce que nous offrons :',
@@ -66,6 +72,14 @@ const translations = {
     embeddedSoftwareIoT: 'Software embarquées et IoT',
     intelligentPlatformsRPA: 'Plateformes intelligentes et RPA',
     digitalTransformation: 'Transformation digitale',
+
+    // Descriptions des services
+    consultingDesc: 'Des solutions d\'IA conçues pour votre entreprise. Boostez votre efficacité et votre croissance avec AfriBuilDigit.',
+    cloudsolutionsDesc: 'Accélérez votre transition vers le cloud avec AfriBuilDigit. Bénéficiez d\'une rentabilité plus rapide.',
+    dataAnalyticsDesc: 'Libérez la puissance des données avec AfriBuilDigit. Des informations basées sur l\'IA, des plateformes modernisées et des solutions prêtes pour l\'avenir.',
+    softwareDevelopmentDesc: 'Nous développons des applications robustes et innovantes adaptées à vos besoins spécifiques.',
+    digitaleDesc: 'Nous développons des applications robustes et innovantes adaptées à vos besoins spécifiques.',
+    securityDesc: 'Nous développons des applications robustes et innovantes adaptées à vos besoins spécifiques.',
     
     // Descriptions des nouveaux services
     softwareEngineeringDesc: 'Que vous ayez besoin de valider une idée, de créer une solution sur mesure, de moderniser votre système, d\'optimiser vos processus existants ou d\'exploiter de nouvelles technologies, AfriBuilDigit est là pour vous. Nous allions une connaissance approfondie du domaine, une expertise des technologies de pointe et une attention particulière à vos besoins pour vous fournir des solutions et services technologiques performants. Outre les solutions cloud, l\'analyse de données, l\'IA, l\'IoT et la conception UX, nous proposons une large gamme de services d\'ingénierie logicielle.',
@@ -154,11 +168,6 @@ const translations = {
     financialTransformation: 'Transformation financière',
     digitalControl: 'Contrôle digital',
     
-    // Descriptions des services
-    dataScienceDesc: 'Nous développons des modèles de machine learning et d\'intelligence artificielle pour extraire des insights précieux de vos données.',
-    dataEngineeringDesc: 'Nous concevons et construisons des architectures de données modernes et évolutives pour optimiser vos processus métier.',
-    dataAnalyticsDesc: 'Nous transformons vos données brutes en analyses actionnables pour vous aider à prendre des décisions éclairées.',
-    softwareDevelopmentDesc: 'Nous développons des applications robustes et innovantes adaptées à vos besoins spécifiques.',
     
     // Features des services
     predictionModels: 'Modèles de prédiction avancés',
@@ -327,6 +336,12 @@ const translations = {
     successRate: 'Success Rate',
     
     // Services
+    softwareDevelopment: 'Software Engineering',
+    digitale: 'Digitalisation',
+    consulting: 'AI Consulting and Implementation',
+    cloudsolutions: 'Cloud Solutions & Services',
+    dataAnalytics: 'Data and Analytics',
+    security: 'Cybersecurity',
     servicesTitle: 'Our Services',
     servicesSubtitle: 'With broad technical expertise, modern tools and methods, we develop advanced and secure solutions, continuously and efficiently. We support you in building your future. From idea to implementation. Discover our complete range of specialized IT services',
     whatWeOffer: 'What we offer:',
@@ -344,6 +359,14 @@ const translations = {
     intelligentPlatformsRPA: 'Intelligent Platforms and RPA',
     digitalTransformation: 'Digital Transformation',
     
+    // service descriptions
+    consultingDesc: 'Ai solutions built for your business. Drive efficiency and growth with AfriBuilDigit.',
+    cloudsolutionsDesc: 'Accelerate your cloud journey with AfriBuilDigit. Achieve faster time-of-value.',
+    dataAnalyticsDesc: 'Unlock the power of Data with AfriBuilDigit. AI-driven insights, modernized platforms and future-ready solutions.',
+    softwareDevelopmentDesc: 'We develop robust and innovative applications tailored to your specific needs.',
+    digitaleDesc: 'Nous développons des applications robustes et innovantes adaptées à vos besoins spécifiques.',
+    securityDesc: 'Nous développons des applications robustes et innovantes adaptées à vos besoins spécifiques.',
+
     // New service descriptions
     softwareEngineeringDesc: 'Whether you need to validate an idea, create a custom solution, modernize your system, optimize your existing processes, or leverage new technologies, AfriBuilDigit is here for you. We combine deep domain knowledge, cutting-edge technology expertise, and careful attention to your needs to provide you with high-performance technological solutions and services. Beyond cloud solutions, data analytics, AI, IoT, and UX design, we offer a wide range of software engineering services.',
     dataAnalyticsServicesDesc: 'Optimize your operations, reduce risks, and transform your data into revenue with a trusted partner by your side. With experienced data engineers and recognized expertise in data analytics, AfriBuilDigit meets all your business needs, from designing a winning strategy to implementing effective data governance, through Big Data engineering and creating complex data platforms.',
@@ -430,12 +453,7 @@ const translations = {
     cloudService: 'Cloud Service',
     financialTransformation: 'Financial Transformation',
     digitalControl: 'Digital Control',
-    
-    // Service descriptions
-    dataScienceDesc: 'We develop machine learning and artificial intelligence models to extract valuable insights from your data.',
-    dataEngineeringDesc: 'We design and build modern, scalable data architectures to optimize your business processes.',
-    dataAnalyticsDesc: 'We transform your raw data into actionable insights to help you make informed decisions.',
-    softwareDevelopmentDesc: 'We develop robust and innovative applications tailored to your specific needs.',
+  
     
     // Service features
     predictionModels: 'Advanced prediction models',
@@ -604,6 +622,12 @@ const translations = {
     successRate: 'Erfolgsquote',
     
     // Services
+    softwareDevelopment: 'Software Engineering',
+    digitale: 'Digitalisierung',
+    consulting: 'AI Consulting und Implementierung',
+    cloudsolutions: 'Cloud Solutions & Services',
+    dataAnalytics: 'Data und Analytics',
+    security: 'Cybersecurity',
     servicesTitle: 'Unsere Dienstleistungen',
     servicesSubtitle: 'Mit breitem Fachwissen, Tools und Methoden entwickeln wir fortschrittliche und sichere Lösungen, kontinuierlich und effizient. Wir begleiten ihre Zukunftsgestaltung. Von der Idee bis zur Umsetzung. Entdecken Sie unsere vollständige Palette spezialisierter IT-Dienstleistungen',
     whatWeOffer: 'Was wir anbieten:',
@@ -621,6 +645,14 @@ const translations = {
     intelligentPlatformsRPA: 'Intelligente Plattformen und RPA',
     digitalTransformation: 'Digitale Transformation',
     
+    // Beschreibungen der Dienstleistungen
+    consultingDesc: 'KI-Lösungen für Ihr Unternehmen. Steigern Sie Effizienz und Wachstum mit AfriBuilDigit.',
+    cloudsolutionsDesc: 'Beschleunigen Sie Ihre Cloud-Reise mit AfriBuilDigit. Erreichen Sie eine schnellere Wertschöpfungszeit.',
+    dataAnalyticsDesc: 'Befreihen Sie das Potenzial Ihrer Daten mit AfriBuilDigit. KI-gestützte Erkenntnisse, modernisierte Plattformen und zukunftssichere Lösungen.',
+    softwareDevelopmentDesc: 'Wir entwickeln robuste und innovative Anwendungen, die auf Ihre spezifischen Bedürfnisse zugeschnitten sind.',
+    digitaleDesc: 'Nous développons des applications robustes et innovantes adaptées à vos besoins spécifiques.',
+    securityDesc: 'Nous développons des applications robustes et innovantes adaptées à vos besoins spécifiques.',
+
     // Beschreibungen der neuen Dienstleistungen
     softwareEngineeringDesc: 'Ob Sie eine Idee validieren, eine maßgeschneiderte Lösung erstellen, Ihr System modernisieren, Ihre bestehenden Prozesse optimieren oder neue Technologien nutzen möchten - AfriBuilDigit ist für Sie da. Wir verbinden fundiertes Domänenwissen, Expertise in modernsten Technologien und besondere Aufmerksamkeit für Ihre Bedürfnisse, um Ihnen leistungsstarke technologische Lösungen und Dienstleistungen zu bieten. Neben Cloud-Lösungen, Datenanalyse, KI, IoT und UX-Design bieten wir eine breite Palette von Software-Engineering-Dienstleistungen.',
     dataAnalyticsServicesDesc: 'Optimieren Sie Ihre Abläufe, reduzieren Sie Risiken und transformieren Sie Ihre Daten in Einnahmen mit einem vertrauensvollen Partner an Ihrer Seite. Mit erfahrenen Daten-Ingenieuren und anerkannter Expertise in der Datenanalyse erfüllt AfriBuilDigit alle Ihre Geschäftsanforderungen, von der Gestaltung einer gewinnbringenden Strategie bis zur Implementierung einer effektiven Datenverwaltung, durch Big Data Engineering und die Erstellung komplexer Datenplattformen.',
@@ -707,12 +739,6 @@ const translations = {
     cloudService: 'Cloud-Service',
     financialTransformation: 'Finanzielle Transformation',
     digitalControl: 'Digitale Kontrolle',
-    
-    // Service descriptions
-    dataScienceDesc: 'Wir entwickeln Machine Learning und künstliche Intelligenz Modelle, um wertvolle Erkenntnisse aus Ihren Daten zu extrahieren.',
-    dataEngineeringDesc: 'Wir entwerfen und bauen moderne, skalierbare Datenarchitekturen, um Ihre Geschäftsprozesse zu optimieren.',
-    dataAnalyticsDesc: 'Wir transformieren Ihre Rohdaten in umsetzbare Erkenntnisse, um Ihnen bei fundierten Entscheidungen zu helfen.',
-    softwareDevelopmentDesc: 'Wir entwickeln robuste und innovative Anwendungen, die auf Ihre spezifischen Bedürfnisse zugeschnitten sind.',
     
     // Service features
     predictionModels: 'Erweiterte Vorhersagemodelle',

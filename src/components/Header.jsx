@@ -39,15 +39,12 @@ const Header = () => {
       label: t('services'),
       path: '/services',
       dropdown: [
-        { label: t('softwareEngineering'), path: '/services#software-development' },
-        { label: t('digitalTransformation'), path: '/services#digitalisation' },
-        { label: t('aiMlDataScience'), path: '/services#data-science' },
-        { label: t('cloudDataEngineering'), path: '/services#data-engineering' },
-        { label: t('dataAnalyticsServices'), path: '/services#data-analytics' },
-        { label: t('cloudServices'), path: '/services#cloud' },
-        { label: t('cybersecurity'), path: '/services#cybersecurity' },
-        { label: t('embeddedSoftwareIoT'), path: '/services#softwareIoT' },
-        { label: t('intelligentPlatformsRPA'), path: '/services#platformsRPA' }
+        { label: t('softwareDevelopment'), path: '/services#software-development' },
+        { label: t('digitale'), path: '/services#digitalisation' },
+        { label: t('consulting'), path: '/services#consulting' },
+        { label: t('cloudsolutions'), path: '/services#cloud' },
+        { label: t('dataAnalytics'), path: '/services#data-analytics' },
+        { label: t('security'), path: '/services#cybersecurity' }
       ]
     },
     {
