@@ -28,8 +28,10 @@ const Header = () => {
       dropdown: [
         { label: t('healthcare'), path: '/industries#healthcare' },
         { label: t('finance'), path: '/industries#finance' },
-        { label: t('retail'), path: '/industries#retail' },
-        { label: t('manufacturing'), path: '/industries#manufacturing' }
+        { label: t('agritech'), path: '/industries#agritech' },
+        { label: t('manufacturing'), path: '/industries#manufacturing' },
+        { label: t('transport'), path: '/industries#transport' },
+        { label: t('retail'), path: '/industries#retail' }
       ]
     },
     {
@@ -37,10 +39,15 @@ const Header = () => {
       label: t('services'),
       path: '/services',
       dropdown: [
-        { label: t('dataScience'), path: '/services#data-science' },
-        { label: t('dataEngineering'), path: '/services#data-engineering' },
-        { label: t('dataAnalytics'), path: '/services#data-analytics' },
-        { label: t('softwareDevelopment'), path: '/services#software-development' }
+        { label: t('softwareEngineering'), path: '/services#software-development' },
+        { label: t('digitalTransformation'), path: '/services#digitalisation' },
+        { label: t('aiMlDataScience'), path: '/services#data-science' },
+        { label: t('cloudDataEngineering'), path: '/services#data-engineering' },
+        { label: t('dataAnalyticsServices'), path: '/services#data-analytics' },
+        { label: t('cloudServices'), path: '/services#cloud' },
+        { label: t('cybersecurity'), path: '/services#cybersecurity' },
+        { label: t('embeddedSoftwareIoT'), path: '/services#softwareIoT' },
+        { label: t('intelligentPlatformsRPA'), path: '/services#platformsRPA' }
       ]
     },
     {

@@ -13,7 +13,8 @@ import {
   TrendingUp,
   Shield,
   Zap,
-  Globe
+  Globe,
+  Brain
 } from 'lucide-react'
 import './Home.css'
 
@@ -22,26 +23,26 @@ const Home = () => {
 
   const services = [
     {
-      icon: Database,
-      title: t('dataScience'),
+      icon: Brain,
+      title: t('aiMlDataScience'),
       description: t('dataScienceDesc'),
       color: '#8b5cf6'
     },
     {
-      icon: Code,
-      title: t('dataEngineering'),
+      icon: Database,
+      title: t('cloudDataEngineering'),
       description: t('dataEngineeringDesc'),
       color: '#10b981'
     },
     {
       icon: BarChart3,
-      title: t('dataAnalytics'),
+      title: t('dataAnalyticsServices'),
       description: t('dataAnalyticsDesc'),
       color: '#f59e0b'
     },
     {
       icon: Cpu,
-      title: t('softwareDevelopment'),
+      title: t('softwareEngineering'),
       description: t('softwareDevelopmentDesc'),
       color: '#8b5cf6'
     }
@@ -85,7 +86,13 @@ const Home = () => {
           <div className="hero-content">
             <h1 className="hero-title">
               {t('heroTitle')}
-            </h1>
+            </h1> 
+            <h5 className="hero-subtitle1">
+              {t('heroSubtitle1')}
+            </h5> 
+            <h5 className="hero-subtitle1">
+              {t('heroSubtitle2')}
+            </h5> 
             <p className="hero-subtitle">
               {t('heroSubtitle')}
             </p>

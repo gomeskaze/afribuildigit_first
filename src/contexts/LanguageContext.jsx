@@ -13,6 +13,8 @@ const translations = {
     
     // Page d'accueil
     heroTitle: 'AfriBuilDigit Group',
+    heroSubtitle1: 'Une vision stimulante.',
+    heroSubtitle2: 'Une valeur ajoutée.',
     heroSubtitle: 'Votre partenaire de confiance en services informatiques',
     heroDescription: 'Jeune et dynamique entreprise spécialisée en science des données, ingénierie des données, analyse de données et développement logiciel.',
     getStarted: 'Commencer',
@@ -48,23 +50,19 @@ const translations = {
     successRate: 'Taux de Réussite',
     
     // Services
-    dataScience: 'Science des données',
-    dataEngineering: 'Ingénierie des données',
-    dataAnalytics: 'Analyse de données',
-    softwareDevelopment: 'Développement logiciel',
     servicesTitle: 'Nos Services',
-    servicesSubtitle: 'Découvrez notre gamme complète de services informatiques spécialisés',
+    servicesSubtitle: 'Grâce à notre expertise technique approfondie, des outils et des méthodes modernes, nous développons des solutions avancées et sécurisées, de manière continue et efficace. Nous vous accompagnons dans la construction de votre avenir. De l\'idée à la mise en œuvre. Découvrez notre gamme complète de services informatiques spécialisés',
     whatWeOffer: 'Ce que nous offrons :',
     readyToStart: 'Prêt à commencer votre projet ?',
     contactForQuote: 'Contactez-nous pour discuter de vos besoins et obtenir un devis personnalisé',
     
     // Nouveaux services
-    softwareEngineering: 'Services d\'ingénierie logicielle et de conseil technique',
+    softwareEngineering: 'Développement logiciel',
     dataAnalyticsServices: 'Analyses de données',
     aiMlDataScience: 'AI, ML, and Data Science',
-    cloudDataEngineering: 'Ingénieur de données services cloud',
+    cloudDataEngineering: 'Ingénieur de données cloud',
     cloudServices: 'Cloud',
-    cybersecurity: 'Sécurité et qualité / Cybersecurity',
+    cybersecurity: 'Cybersecurity',
     embeddedSoftwareIoT: 'Software embarquées et IoT',
     intelligentPlatformsRPA: 'Plateformes intelligentes et RPA',
     digitalTransformation: 'Transformation digitale',
@@ -244,7 +242,9 @@ const translations = {
     industriesSubtitle: 'Nous servons divers secteurs d\'activité avec des solutions adaptées',
     healthcare: 'Santé',
     finance: 'Finance',
-    retail: 'Commerce',
+    agritech:'Agritech',
+    transport: 'Transports publics',
+    retail: 'Commerce & E-Commerce',
     manufacturing: 'Manufacture',
     readyToTransform: 'Prêt à transformer votre secteur d\'activité ?',
     contactForIndustry: 'Contactez-nous pour discuter de vos besoins spécifiques et découvrir nos solutions adaptées à votre industrie',
@@ -277,7 +277,8 @@ const translations = {
     // Langues
     language: 'Langue'
   },
-  /////########### langue anglaise ###########
+  ////////////////////////////////////////////////////////////////////////////////////
+                          /////########### langue anglaise ###########
   en: {
     // Navigation
     home: 'Home',
@@ -289,6 +290,8 @@ const translations = {
     
     // Home page
     heroTitle: 'AfriBuilDigit Group',
+    heroSubtitle1: 'Empowering vision.',
+    heroSubtitle2: 'Delivering value.',
     heroSubtitle: 'Your trusted partner in IT services',
     heroDescription: 'Young and dynamic company specialized in data science, data engineering, data analytics and software development.',
     getStarted: 'Get Started',
@@ -324,23 +327,19 @@ const translations = {
     successRate: 'Success Rate',
     
     // Services
-    dataScience: 'Data Science',
-    dataEngineering: 'Data Engineering',
-    dataAnalytics: 'Data Analytics',
-    softwareDevelopment: 'Software Development',
     servicesTitle: 'Our Services',
-    servicesSubtitle: 'Discover our complete range of specialized IT services',
+    servicesSubtitle: 'With broad technical expertise, modern tools and methods, we develop advanced and secure solutions, continuously and efficiently. We support you in building your future. From idea to implementation. Discover our complete range of specialized IT services',
     whatWeOffer: 'What we offer:',
     readyToStart: 'Ready to start your project?',
     contactForQuote: 'Contact us to discuss your needs and get a personalized quote',
     
     // New services
-    softwareEngineering: 'Software Engineering and Technical Consulting Services',
+    softwareEngineering: 'Software Engineering',
     dataAnalyticsServices: 'Data Analytics',
     aiMlDataScience: 'AI, ML, and Data Science',
-    cloudDataEngineering: 'Cloud Data Engineering Services',
+    cloudDataEngineering: 'Cloud Data Engineering',
     cloudServices: 'Cloud',
-    cybersecurity: 'Security and Quality / Cybersecurity',
+    cybersecurity: 'Cybersecurity',
     embeddedSoftwareIoT: 'Embedded Software and IoT',
     intelligentPlatformsRPA: 'Intelligent Platforms and RPA',
     digitalTransformation: 'Digital Transformation',
@@ -520,7 +519,9 @@ const translations = {
     industriesSubtitle: 'We serve various business sectors with tailored solutions',
     healthcare: 'Healthcare',
     finance: 'Finance',
-    retail: 'Retail',
+    agritech:'Agritech',
+    transport: 'Public Transport',
+    retail: 'Retail & E-Commerce',
     manufacturing: 'Manufacturing',
     readyToTransform: 'Ready to transform your industry?',
     contactForIndustry: 'Contact us to discuss your specific needs and discover our solutions adapted to your industry',
@@ -553,7 +554,8 @@ const translations = {
     // Languages
     language: 'Language'
   },
-  /////########### langue allemand ###########
+  ////////////////////////////////////////////////////////////////////////////
+  /////                          ########### langue allemand ###########
     de: {
     // Navigation
     home: 'Startseite',
@@ -565,6 +567,8 @@ const translations = {
     
     // Home page
     heroTitle: 'AfriBuilDigit Group',
+    heroSubtitle1: 'Eine anregende Vision.',
+    heroSubtitle2: 'Eine Wertschöpfung.',
     heroSubtitle: 'Ihr vertrauensvoller Partner für IT-Dienstleistungen',
     heroDescription: 'Junges und dynamisches Unternehmen, spezialisiert auf Datenwissenschaft, Datenengineering, Datenanalyse und Softwareentwicklung.',
     getStarted: 'Loslegen',
@@ -600,23 +604,19 @@ const translations = {
     successRate: 'Erfolgsquote',
     
     // Services
-    dataScience: 'Datenwissenschaft',
-    dataEngineering: 'Datenengineering',
-    dataAnalytics: 'Datenanalyse',
-    softwareDevelopment: 'Softwareentwicklung',
     servicesTitle: 'Unsere Dienstleistungen',
-    servicesSubtitle: 'Entdecken Sie unsere vollständige Palette spezialisierter IT-Dienstleistungen',
+    servicesSubtitle: 'Mit breitem Fachwissen, Tools und Methoden entwickeln wir fortschrittliche und sichere Lösungen, kontinuierlich und effizient. Wir begleiten ihre Zukunftsgestaltung. Von der Idee bis zur Umsetzung. Entdecken Sie unsere vollständige Palette spezialisierter IT-Dienstleistungen',
     whatWeOffer: 'Was wir anbieten:',
     readyToStart: 'Bereit, Ihr Projekt zu starten?',
     contactForQuote: 'Kontaktieren Sie uns, um Ihre Bedürfnisse zu besprechen und ein personalisiertes Angebot zu erhalten',
     
     // Neue Dienstleistungen
-    softwareEngineering: 'Software-Engineering und technische Beratungsdienstleistungen',
+    softwareEngineering: 'Software-Engineering',
     dataAnalyticsServices: 'Datenanalyse',
     aiMlDataScience: 'KI, ML und Datenwissenschaft',
-    cloudDataEngineering: 'Cloud-Datenengineering-Dienstleistungen',
+    cloudDataEngineering: 'Cloud-Datenengineering',
     cloudServices: 'Cloud',
-    cybersecurity: 'Sicherheit und Qualität / Cybersicherheit',
+    cybersecurity: 'Cybersicherheit',
     embeddedSoftwareIoT: 'Eingebettete Software und IoT',
     intelligentPlatformsRPA: 'Intelligente Plattformen und RPA',
     digitalTransformation: 'Digitale Transformation',
@@ -796,7 +796,9 @@ const translations = {
     industriesSubtitle: 'Wir bedienen verschiedene Geschäftsbereiche mit maßgeschneiderten Lösungen',
     healthcare: 'Gesundheitswesen',
     finance: 'Finanzen',
-    retail: 'Einzelhandel',
+    agritech:'Agritech',
+    transport: 'Öffentliche Verkehrsmittel',
+    retail: 'Einzelhandel & e-Commerce',
     manufacturing: 'Fertigung',
     readyToTransform: 'Bereit, Ihre Branche zu transformieren?',
     contactForIndustry: 'Kontaktieren Sie uns, um Ihre spezifischen Bedürfnisse zu besprechen und unsere an Ihre Branche angepassten Lösungen zu entdecken',
