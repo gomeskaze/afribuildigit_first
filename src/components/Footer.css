@@ -17,6 +17,7 @@
   margin-bottom: 1rem;
   font-size: 1.1rem;
   font-weight: 600;
+  text-align: left;
 }
 
 /* Logo et Description */
@@ -26,6 +27,7 @@
   font-size: 1.5rem;
   margin-bottom: 1rem;
   display: inline-block;
+  text-align: left;
 }
 
 .footer-description {
@@ -38,6 +40,7 @@
 /* Réseaux sociaux */
 .social-links h4 {
   margin-bottom: 0.75rem;
+  text-align: left;
 }
 
 .social-icons {

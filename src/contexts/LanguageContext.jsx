@@ -199,6 +199,12 @@ const translations = {
     clientsTitle: 'Nos Clients',
     clientsSubtitle: 'Les exigences informatiques de nos clients sont aussi variés que leurs entreprises et leurs secteurs d\'activité. Cependant, ils ont un point commun : ils reconnaissent que des environnements informatiques modernes et fiables constituent le fondement de modèles économiques durables et de la réussite économique.',
     
+    // Solutions IT
+    ourITSoftwareSolutions: 'Nos Solutions IT et Logiciels',
+    advancedITForBusinessSuccess: 'IT Avancée pour Votre Succès Commercial',
+    solutionsFirstParagraph: 'En tant que spécialiste hautement certifié des services informatiques, nous disposons d\'un large portefeuille de services : des services cloud les plus modernes aux infrastructures informatiques sur mesure et services gérés, en passant par les sujets de sécurité et autres services de support, tout est inclus pour une informatique d\'entreprise bien positionnée afin de répondre aux exigences croissantes de la transformation numérique.',
+    solutionsSecondParagraph: 'Avec nos solutions logicielles intelligentes, nous maîtrisons les défis individuels et optimisons les processus métier complexes en étroite collaboration avec nos clients. Nous répondons précisément aux besoins spécifiques de l\'industrie de nos clients et trouvons soit la bonne solution dans notre portefeuille logiciel étendu, soit nous développons le logiciel approprié sur mesure pour votre entreprise.',
+    
     // À propos
     aboutTitle: 'À propos de nous',
     aboutDescription: 'Nous sommes une jeune et dynamique entreprise de services informatiques basée à Yaoundé, au Cameroun.',
@@ -226,7 +232,7 @@ const translations = {
     ourTeam: 'Notre Équipe',
     teamSubtitle: 'Rencontrez les experts qui font d\'AfriBuilDigit Group votre partenaire de confiance',
     ceoFounder: 'CEO & Co-fondateur',
-    ctoFounder: 'CTO & Co-fondatrice',
+    ctoFounder: 'CTO & Co-fondateur',
     leadDataScientist: 'Lead Data Scientist',
     ctoDesc: 'Expert en Cloud data science et Ingénieure de données avec plus de 10 ans d\'expérience professionnel.',
     ceoDesc: 'Expert en Cloud data science et Ingénieure en développement logiciel spécialisée dans les architectures cloud.',
@@ -518,6 +524,12 @@ const translations = {
     clientsTitle: 'Our Clients',
     clientsSubtitle: 'Our customers\' IT requirements are as diverse as their companies and industries. However, they have one thing in common: they recognize that modern and reliable IT environments are the foundation of sustainable business models and economic success.',
     
+    // Solutions IT
+    ourITSoftwareSolutions: 'Our IT and Software Solutions',
+    advancedITForBusinessSuccess: 'Advanced IT for Your Business Success',
+    solutionsFirstParagraph: 'As a highly certified specialist in IT services, we have a wide portfolio of services: from the most modern cloud services to custom IT infrastructure and managed services, including security and other support topics, all is included for a well-positioned enterprise IT to meet the increasing requirements of digital transformation.',
+    solutionsSecondParagraph: 'With our intelligent software solutions, we master individual challenges and optimize complex business processes in close collaboration with our clients. We precisely meet the specific needs of our clients\' industry and find either the right solution in our extended software portfolio, or we develop the appropriate custom software for your company.',
+    
     // About
     aboutTitle: 'About Us',
     aboutDescription: 'We are a young and dynamic IT services company based in Yaoundé, Cameroon.',
@@ -624,7 +636,7 @@ const translations = {
     positionDataScientistLocation: 'Yaoundé, Cameroon',
     positionDataScientistType: 'Full-time',
     positionDataScientistDesc: 'We are seeking an experienced Data Scientist to join our team.',
-    positionFullStackTitle: 'Full Stack Developer',
+    positionFullStackTitle: 'Full-Stack Developer',
     positionFullStackDept: 'Development',
     positionFullStackLocation: 'Yaoundé, Cameroon',
     positionFullStackType: 'Full-time',
@@ -835,6 +847,12 @@ const translations = {
     // clients
     clientsTitle: 'Unsere Clients',
     clientsSubtitle: 'Die Anforderungen unserer Kunden an ihre IT, sind genauso vielfältig wie ihre Unternehmen und Branchen. Eines haben sie jedoch gemeinsam: Sie haben erkannt, dass moderne und zuverlässige IT-Umgebungen das Fundament für zukunftsfähige Geschäftsmodelle und wirtschaftlichen Erfolg sind.',
+    
+    // Solutions IT
+    ourITSoftwareSolutions: 'Unsere IT und Software-Lösungen',
+    advancedITForBusinessSuccess: 'Erweiterte IT für Ihren geschäftlichen Erfolg',
+    solutionsFirstParagraph: 'Als hoch geprüfter Spezialist für IT-Dienstleistungen verfügen wir über ein umfangreiches Portfolio von Dienstleistungen: von den modernsten Cloud-Diensten bis hin zu angepassten IT-Infrastrukturen und verwalteten Dienstleistungen, einschließlich Sicherheits- und andere Support-Themen, alles ist inklusive für eine gut positionierte Unternehmens-IT, um die steigenden Anforderungen der Digitalisierung zu erfüllen.',
+    solutionsSecondParagraph: 'Mit unseren intelligenten Software-Lösungen beherrschen wir individuelle Herausforderungen und optimieren komplexe Geschäftsprozesse in enger Zusammenarbeit mit unseren Kunden. Wir erfüllen präzise die spezifischen Anforderungen unserer Kunden-Branche und finden entweder die richtige Lösung in unserem erweiterten Software-Portfolio oder entwickeln die entsprechende angepasste Software für Ihr Unternehmen.',
     
     // About
     aboutTitle: 'Über uns',

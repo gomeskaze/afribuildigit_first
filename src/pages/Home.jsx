@@ -250,6 +250,34 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Section Solutions IT */}
+      <section className="solutions-section section">
+        <div className="container">
+          <div className="solutions-content">
+            <div className="solutions-image">
+              <img src="/images/team-collaboration.jpg" alt="Équipe en collaboration" />
+            </div>
+            <div className="solutions-text">
+              <span className="solutions-subtitle">{t('ourITSoftwareSolutions')}</span>
+              <h2 className="solutions-title">{t('advancedITForBusinessSuccess')}</h2>
+              <div className="solutions-description">
+                <p>{t('solutionsFirstParagraph')}</p>
+                <p>{t('solutionsSecondParagraph')}</p>
+              </div>
+              <div className="solutions-actions">
+                <Link to="/services" className="btn btn-primary">
+                  {t('discoverOurServices')}
+                  <ArrowRight size={20} />
+                </Link>
+                <Link to="/contact" className="btn btn-secondary">
+                  {t('contact')}
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Section Technologies */}
       <section className="tech-section section">
         <div className="container">
