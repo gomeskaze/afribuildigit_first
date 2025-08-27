@@ -211,25 +211,40 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Section Partenaires */}
-      <section className="partners-section section">
+      {/* Section Clients */}
+      <section className="clients-section section">
         <div className="container">
           <div className="section-header">
-            <h2>{t('partnersTitle')}</h2>
-            <p>{t('partnersSubtitle')}</p>
+            <h2>{t('clientsTitle')}</h2>
+            <p>{t('clientsSubtitle')}</p>
           </div>
-          <div className="partners-grid">
-            <a className="partner" href="https://totalenergies.com/" target="_blank" rel="noreferrer" aria-label="TotalEnergies">
+          <div className="clients-grid">
+            {/* Premier set de logos */}
+            <a className="client" href="https://totalenergies.com/" target="_blank" rel="noreferrer" aria-label="TotalEnergies">
               <img src="/partners/totalenergies.png" alt="TotalEnergies" />
             </a>
-            <a className="partner" href="https://laahtech.com/" target="_blank" rel="noreferrer" aria-label="Laahtech">
+            <a className="client" href="https://laahtech.com/" target="_blank" rel="noreferrer" aria-label="Laahtech">
               <img src="/partners/laahtech.png" alt="Laahtech" />
             </a>
-            <a className="partner" href="https://maviance.com/" target="_blank" rel="noreferrer" aria-label="Maviance">
+            <a className="client" href="https://maviance.com/" target="_blank" rel="noreferrer" aria-label="Maviance">
               <img src="/partners/maviance.png" alt="Maviance" />
             </a>
-            <a className="partner" href="https://sendkolo.com/" target="_blank" rel="noreferrer" aria-label="Maviance">
-              <img src="/partners/sendkolo.png" alt="sendkolo" />
+            <a className="client" href="https://sendkolo.com/" target="_blank" rel="noreferrer" aria-label="Sendkolo">
+              <img src="/partners/sendkolo.png" alt="Sendkolo" />
+            </a>
+            
+            {/* Deuxième set de logos pour le défilement continu */}
+            <a className="client" href="https://totalenergies.com/" target="_blank" rel="noreferrer" aria-label="TotalEnergies">
+              <img src="/partners/totalenergies.png" alt="TotalEnergies" />
+            </a>
+            <a className="client" href="https://laahtech.com/" target="_blank" rel="noreferrer" aria-label="Laahtech">
+              <img src="/partners/laahtech.png" alt="Laahtech" />
+            </a>
+            <a className="client" href="https://maviance.com/" target="_blank" rel="noreferrer" aria-label="Maviance">
+              <img src="/partners/maviance.png" alt="Maviance" />
+            </a>
+            <a className="client" href="https://sendkolo.com/" target="_blank" rel="noreferrer" aria-label="Sendkolo">
+              <img src="/partners/sendkolo.png" alt="Sendkolo" />
             </a>
           </div>
         </div>

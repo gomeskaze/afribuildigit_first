@@ -25,7 +25,7 @@ const translations = {
     whyChooseUs: 'Pourquoi Nous Choisir',
     whatMakesUsDifferent: 'Découvrez ce qui nous distingue de la concurrence',
     readyToTransform: 'Prêt à Transformer Votre Entreprise ?',
-    contactToday: 'Contactez-nous dès aujourd\'hui pour discuter de vos besoins en services informatiques',
+    contactToday: 'Vous avez d\'autres questions, besoin d\'informations ou souhaitez être rappelé? Laissez-nous un message - Nous serons ravis de vous aider.',
     discoverOurServices: 'Découvrir nos services',
     technologiesTools: 'Technologies & Outils',
     modernTechnologies: 'Nous utilisons les technologies les plus modernes pour vos projets',
@@ -195,9 +195,9 @@ const translations = {
     thirdPartyIntegrations: 'Intégrations tierces',
     maintenanceSupport: 'Maintenance et support',
     
-    // Partenaires
-    partnersTitle: 'Nos Partenaires',
-    partnersSubtitle: 'Ils nous font confiance',
+    // clients
+    clientsTitle: 'Nos Clients',
+    clientsSubtitle: 'Les exigences informatiques de nos clients sont aussi variés que leurs entreprises et leurs secteurs d\'activité. Cependant, ils ont un point commun : ils reconnaissent que des environnements informatiques modernes et fiables constituent le fondement de modèles économiques durables et de la réussite économique.',
     
     // À propos
     aboutTitle: 'À propos de nous',
@@ -344,7 +344,7 @@ const translations = {
     whyChooseUs: 'Why Choose Us',
     whatMakesUsDifferent: 'Discover what sets us apart from the competition',
     readyToTransform: 'Ready to Transform Your Business?',
-    contactToday: 'Contact us today to discuss your IT service needs',
+    contactToday: 'Do you have any further questions, need more information, or would you like us to call you back? Leave us a message - we\'re happy to help.',
     discoverOurServices: 'Discover our services',
     technologiesTools: 'Technologies & Tools',
     modernTechnologies: 'We use the most modern technologies for your projects',
@@ -514,9 +514,9 @@ const translations = {
     thirdPartyIntegrations: 'Third-party integrations',
     maintenanceSupport: 'Maintenance and support',
     
-    // Partners
-    partnersTitle: 'Our Partners',
-    partnersSubtitle: 'They trust us',
+    // clients
+    clientsTitle: 'Our Clients',
+    clientsSubtitle: 'Our customers\' IT requirements are as diverse as their companies and industries. However, they have one thing in common: they recognize that modern and reliable IT environments are the foundation of sustainable business models and economic success.',
     
     // About
     aboutTitle: 'About Us',
@@ -663,7 +663,7 @@ const translations = {
     whyChooseUs: 'Warum uns wählen?',
     whatMakesUsDifferent: 'Entdecken Sie, was uns von der Konkurrenz unterscheidet',
     readyToTransform: 'Bereit, Ihre Branche zu transformieren?',
-    contactToday: 'Kontaktieren Sie uns heute, um über Ihre IT-Dienstleistungsbedürfnisse zu sprechen',
+    contactToday: 'Sie haben noch weitere Fragen, benötigen Informationen oder wünschen einen Rückruf? Hinterlassen Sie uns Ihre Nachricht - wir sind gerne für Sie da.',
     discoverOurServices: 'Unsere Dienstleistungen entdecken',
     technologiesTools: 'Technologien & Tools',
     modernTechnologies: 'Wir verwenden die modernsten Technologien für Ihre Projekte',
@@ -832,9 +832,9 @@ const translations = {
     thirdPartyIntegrations: 'Drittanbieter-Integrationen',
     maintenanceSupport: 'Wartung und Support',
     
-    // Partner
-    partnersTitle: 'Unsere Partner',
-    partnersSubtitle: 'Sie vertrauen uns',
+    // clients
+    clientsTitle: 'Unsere Clients',
+    clientsSubtitle: 'Die Anforderungen unserer Kunden an ihre IT, sind genauso vielfältig wie ihre Unternehmen und Branchen. Eines haben sie jedoch gemeinsam: Sie haben erkannt, dass moderne und zuverlässige IT-Umgebungen das Fundament für zukunftsfähige Geschäftsmodelle und wirtschaftlichen Erfolg sind.',
     
     // About
     aboutTitle: 'Über uns',
