@@ -228,6 +228,9 @@ const Home = () => {
             <a className="partner" href="https://maviance.com/" target="_blank" rel="noreferrer" aria-label="Maviance">
               <img src="/partners/maviance.png" alt="Maviance" />
             </a>
+            <a className="partner" href="https://sendkolo.com/" target="_blank" rel="noreferrer" aria-label="Maviance">
+              <img src="/partners/sendkolo.png" alt="sendkolo" />
+            </a>
           </div>
         </div>
       </section>
