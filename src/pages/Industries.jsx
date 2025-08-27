@@ -69,7 +69,7 @@ const Industries = () => {
       <section className="section cta-section-dark">
         <div className="container">
           <div className="cta-content">
-            <h2>{t('readyToTransform')}</h2>
+            <h2>{t('readyToTransformIndustry')}</h2>
             <p>{t('contactForIndustry')}</p>
             <div className="cta-actions">
               <a href="/contact" className="btn btn-primary">

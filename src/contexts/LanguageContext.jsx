@@ -195,6 +195,10 @@ const translations = {
     thirdPartyIntegrations: 'Intégrations tierces',
     maintenanceSupport: 'Maintenance et support',
     
+    // Partenaires
+    partnersTitle: 'Nos Partenaires',
+    partnersSubtitle: 'Ils nous font confiance',
+    
     // À propos
     aboutTitle: 'À propos de nous',
     aboutDescription: 'Nous sommes une jeune et dynamique entreprise de services informatiques basée à Yaoundé, au Cameroun.',
@@ -255,7 +259,7 @@ const translations = {
     transport: 'Transports publics',
     retail: 'Commerce & E-Commerce',
     manufacturing: 'Manufacture',
-    readyToTransform: 'Prêt à transformer votre secteur d\'activité ?',
+    readyToTransformIndustry: 'Prêt à transformer votre secteur d\'activité ?',
     contactForIndustry: 'Contactez-nous pour discuter de vos besoins spécifiques et découvrir nos solutions adaptées à votre industrie',
     
     // Descriptions des industries
@@ -282,6 +286,35 @@ const translations = {
     careerTitle: 'Carrière',
     joinUs: 'Rejoignez-nous',
     openPositions: 'Postes ouverts',
+    careerJoinTagline: "et faites partie d'une équipe passionnée par l'innovation",
+    careerOpenPositionsDesc: 'Découvrez les opportunités de carrière chez AfriBuilDigit Group',
+    applyNow: 'Postuler',
+    benefitsTitle: 'Avantages',
+    benefitsWhyJoin: 'Pourquoi rejoindre notre équipe ?',
+    benefitFlexibleWork: 'Environnement de travail flexible',
+    benefitContinuousTraining: 'Formation continue',
+    benefitInnovativeProjects: 'Projets innovants',
+    benefitDynamicTeam: 'Équipe dynamique',
+    benefitCareerGrowth: 'Croissance de carrière',
+    benefitCompetitiveSalary: 'Salaire compétitif',
+    careerNoIdealPosition: 'Vous ne trouvez pas le poste idéal ?',
+    careerSendCVPrompt: 'Envoyez-nous votre CV et nous vous contacterons pour les futures opportunités',
+    careerSendCVButton: 'Envoyer votre CV',
+    positionDataScientistTitle: 'Data Scientist Senior',
+    positionDataScientistDept: 'Data Science',
+    positionDataScientistLocation: 'Yaoundé, Cameroun',
+    positionDataScientistType: 'Temps plein',
+    positionDataScientistDesc: "Nous recherchons un Data Scientist expérimenté pour rejoindre notre équipe.",
+    positionFullStackTitle: 'Développeur Full Stack',
+    positionFullStackDept: 'Développement',
+    positionFullStackLocation: 'Yaoundé, Cameroun',
+    positionFullStackType: 'Temps plein',
+    positionFullStackDesc: 'Développeur passionné pour créer des applications web modernes.',
+    positionDataEngineerTitle: 'Data Engineer',
+    positionDataEngineerDept: 'Data Engineering',
+    positionDataEngineerLocation: 'Yaoundé, Cameroun',
+    positionDataEngineerType: 'Temps plein',
+    positionDataEngineerDesc: 'Expert en architectures de données et pipelines ETL.',
     
     // Langues
     language: 'Langue'
@@ -481,6 +514,10 @@ const translations = {
     thirdPartyIntegrations: 'Third-party integrations',
     maintenanceSupport: 'Maintenance and support',
     
+    // Partners
+    partnersTitle: 'Our Partners',
+    partnersSubtitle: 'They trust us',
+    
     // About
     aboutTitle: 'About Us',
     aboutDescription: 'We are a young and dynamic IT services company based in Yaoundé, Cameroon.',
@@ -541,7 +578,7 @@ const translations = {
     transport: 'Public Transport',
     retail: 'Retail & E-Commerce',
     manufacturing: 'Manufacturing',
-    readyToTransform: 'Ready to transform your industry?',
+    readyToTransformIndustry: 'Ready to transform your industry?',
     contactForIndustry: 'Contact us to discuss your specific needs and discover our solutions adapted to your industry',
     
     // Industry descriptions
@@ -568,6 +605,35 @@ const translations = {
     careerTitle: 'Career',
     joinUs: 'Join Us',
     openPositions: 'Open Positions',
+    careerJoinTagline: 'and be part of a team passionate about innovation',
+    careerOpenPositionsDesc: 'Discover career opportunities at AfriBuilDigit Group',
+    applyNow: 'Apply Now',
+    benefitsTitle: 'Benefits',
+    benefitsWhyJoin: 'Why join our team?',
+    benefitFlexibleWork: 'Flexible work environment',
+    benefitContinuousTraining: 'Continuous training',
+    benefitInnovativeProjects: 'Innovative projects',
+    benefitDynamicTeam: 'Dynamic team',
+    benefitCareerGrowth: 'Career growth',
+    benefitCompetitiveSalary: 'Competitive salary',
+    careerNoIdealPosition: "Can't find the ideal role?",
+    careerSendCVPrompt: 'Send us your resume and we will contact you for future opportunities',
+    careerSendCVButton: 'Send your resume',
+    positionDataScientistTitle: 'Senior Data Scientist',
+    positionDataScientistDept: 'Data Science',
+    positionDataScientistLocation: 'Yaoundé, Cameroon',
+    positionDataScientistType: 'Full-time',
+    positionDataScientistDesc: 'We are seeking an experienced Data Scientist to join our team.',
+    positionFullStackTitle: 'Full Stack Developer',
+    positionFullStackDept: 'Development',
+    positionFullStackLocation: 'Yaoundé, Cameroon',
+    positionFullStackType: 'Full-time',
+    positionFullStackDesc: 'Passionate developer to build modern web applications.',
+    positionDataEngineerTitle: 'Data Engineer',
+    positionDataEngineerDept: 'Data Engineering',
+    positionDataEngineerLocation: 'Yaoundé, Cameroon',
+    positionDataEngineerType: 'Full-time',
+    positionDataEngineerDesc: 'Expert in data architectures and ETL pipelines.',
     
     // Languages
     language: 'Language'
@@ -766,6 +832,10 @@ const translations = {
     thirdPartyIntegrations: 'Drittanbieter-Integrationen',
     maintenanceSupport: 'Wartung und Support',
     
+    // Partner
+    partnersTitle: 'Unsere Partner',
+    partnersSubtitle: 'Sie vertrauen uns',
+    
     // About
     aboutTitle: 'Über uns',
     aboutDescription: 'Wir sind ein junges und dynamisches IT-Dienstleistungsunternehmen mit Sitz in Yaoundé, Kamerun.',
@@ -826,7 +896,7 @@ const translations = {
     transport: 'Öffentliche Verkehrsmittel',
     retail: 'Einzelhandel & e-Commerce',
     manufacturing: 'Fertigung',
-    readyToTransform: 'Bereit, Ihre Branche zu transformieren?',
+    readyToTransformIndustry: 'Bereit, Ihre Branche zu transformieren?',
     contactForIndustry: 'Kontaktieren Sie uns, um Ihre spezifischen Bedürfnisse zu besprechen und unsere an Ihre Branche angepassten Lösungen zu entdecken',
     
     // Industry descriptions
@@ -853,6 +923,35 @@ const translations = {
     careerTitle: 'Karriere',
     joinUs: 'Werden Sie Teil unseres Teams',
     openPositions: 'Offene Stellen',
+    careerJoinTagline: 'und werden Sie Teil eines Teams, das für Innovation brennt',
+    careerOpenPositionsDesc: 'Entdecken Sie Karrieremöglichkeiten bei AfriBuilDigit Group',
+    applyNow: 'Bewerben',
+    benefitsTitle: 'Vorteile',
+    benefitsWhyJoin: 'Warum unserem Team beitreten?',
+    benefitFlexibleWork: 'Flexibles Arbeitsumfeld',
+    benefitContinuousTraining: 'Kontinuierliche Weiterbildung',
+    benefitInnovativeProjects: 'Innovative Projekte',
+    benefitDynamicTeam: 'Dynamisches Team',
+    benefitCareerGrowth: 'Karrierewachstum',
+    benefitCompetitiveSalary: 'Wettbewerbsfähiges Gehalt',
+    careerNoIdealPosition: 'Nicht die ideale Stelle gefunden?',
+    careerSendCVPrompt: 'Senden Sie uns Ihren Lebenslauf und wir kontaktieren Sie für zukünftige Möglichkeiten',
+    careerSendCVButton: 'Lebenslauf senden',
+    positionDataScientistTitle: 'Senior Data Scientist',
+    positionDataScientistDept: 'Data Science',
+    positionDataScientistLocation: 'Yaoundé, Kamerun',
+    positionDataScientistType: 'Vollzeit',
+    positionDataScientistDesc: 'Wir suchen eine erfahrene Data Scientist zur Verstärkung unseres Teams.',
+    positionFullStackTitle: 'Full-Stack-Entwickler',
+    positionFullStackDept: 'Entwicklung',
+    positionFullStackLocation: 'Yaoundé, Kamerun',
+    positionFullStackType: 'Vollzeit',
+    positionFullStackDesc: 'Leidenschaftlicher Entwickler für moderne Webanwendungen.',
+    positionDataEngineerTitle: 'Data Engineer',
+    positionDataEngineerDept: 'Data Engineering',
+    positionDataEngineerLocation: 'Yaoundé, Kamerun',
+    positionDataEngineerType: 'Vollzeit',
+    positionDataEngineerDesc: 'Experte für Datenarchitekturen und ETL-Pipelines.',
     
     // Languages
     language: 'Sprache'

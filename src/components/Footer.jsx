@@ -70,11 +70,6 @@ const Footer = () => {
                 <span className="logo-secondary">Digit</span>
               </div>
             </Link>
-            <p className="footer-description">
-              Jeune et dynamique entreprise de services informatiques basée à Yaoundé, 
-              spécialisée en science des données, ingénierie des données, analyse de données 
-              et développement logiciel.
-            </p>
             
             {/* Réseaux sociaux */}
             <div className="social-links">

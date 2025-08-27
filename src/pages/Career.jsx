@@ -1,41 +1,42 @@
 import React from 'react'
 import { useLanguage } from '../contexts/LanguageContext'
 import { Briefcase, Users, Award, Mail } from 'lucide-react'
+import './Career.css'
 
 const Career = () => {
   const { t } = useLanguage()
 
   const positions = [
     {
-      title: 'Data Scientist Senior',
-      department: 'Data Science',
-      location: 'Yaoundé, Cameroun',
-      type: 'Temps plein',
-      description: 'Nous recherchons un Data Scientist expérimenté pour rejoindre notre équipe.'
+      title: t('positionDataScientistTitle'),
+      department: t('positionDataScientistDept'),
+      location: t('positionDataScientistLocation'),
+      type: t('positionDataScientistType'),
+      description: t('positionDataScientistDesc')
     },
     {
-      title: 'Développeur Full Stack',
-      department: 'Développement',
-      location: 'Yaoundé, Cameroun',
-      type: 'Temps plein',
-      description: 'Développeur passionné pour créer des applications web modernes.'
+      title: t('positionFullStackTitle'),
+      department: t('positionFullStackDept'),
+      location: t('positionFullStackLocation'),
+      type: t('positionFullStackType'),
+      description: t('positionFullStackDesc')
     },
     {
-      title: 'Data Engineer',
-      department: 'Data Engineering',
-      location: 'Yaoundé, Cameroun',
-      type: 'Temps plein',
-      description: 'Expert en architectures de données et pipelines ETL.'
+      title: t('positionDataEngineerTitle'),
+      department: t('positionDataEngineerDept'),
+      location: t('positionDataEngineerLocation'),
+      type: t('positionDataEngineerType'),
+      description: t('positionDataEngineerDesc')
     }
   ]
 
   const benefits = [
-    'Environnement de travail flexible',
-    'Formation continue',
-    'Projets innovants',
-    'Équipe dynamique',
-    'Croissance de carrière',
-    'Salaire compétitif'
+    t('benefitFlexibleWork'),
+    t('benefitContinuousTraining'),
+    t('benefitInnovativeProjects'),
+    t('benefitDynamicTeam'),
+    t('benefitCareerGrowth'),
+    t('benefitCompetitiveSalary')
   ]
 
   return (
@@ -44,7 +45,7 @@ const Career = () => {
         <div className="container">
           <div className="section-header">
             <h1>{t('careerTitle')}</h1>
-            <p>{t('joinUs')} et faites partie d'une équipe passionnée par l'innovation</p>
+            <p>{t('joinUs')} {t('careerJoinTagline')}</p>
           </div>
         </div>
       </section>
@@ -53,7 +54,7 @@ const Career = () => {
         <div className="container">
           <div className="section-header">
             <h2>{t('openPositions')}</h2>
-            <p>Découvrez les opportunités de carrière chez AfriBuilDigit Group</p>
+            <p>{t('careerOpenPositionsDesc')}</p>
           </div>
           
           <div className="positions-grid">
@@ -66,8 +67,8 @@ const Career = () => {
                   <span>{position.type}</span>
                 </div>
                 <p>{position.description}</p>
-                <a href={`mailto:careers@afribuildigit.com?subject=Candidature - ${position.title}`} className="btn btn-primary">
-                  Postuler
+                <a href={`mailto:careers@afribuildigit.com?subject=Application - ${position.title}`} className="btn btn-primary">
+                  {t('applyNow')}
                 </a>
               </div>
             ))}
@@ -78,8 +79,8 @@ const Career = () => {
       <section className="section">
         <div className="container">
           <div className="section-header">
-            <h2>Avantages</h2>
-            <p>Pourquoi rejoindre notre équipe ?</p>
+            <h2>{t('benefitsTitle')}</h2>
+            <p>{t('benefitsWhyJoin')}</p>
           </div>
           
           <div className="benefits-grid grid grid-3">
@@ -95,12 +96,12 @@ const Career = () => {
 
       <section className="section">
         <div className="container">
-          <div className="cta-content">
-            <h2>Vous ne trouvez pas le poste idéal ?</h2>
-            <p>Envoyez-nous votre CV et nous vous contacterons pour les futures opportunités</p>
+          <div className="cta-content cta-text-violet">
+            <h2>{t('careerNoIdealPosition')}</h2>
+            <p>{t('careerSendCVPrompt')}</p>
             <a href="mailto:careers@afribuildigit.com" className="btn btn-primary">
               <Mail size={20} />
-              Envoyer votre CV
+              {t('careerSendCVButton')}
             </a>
           </div>
         </div>

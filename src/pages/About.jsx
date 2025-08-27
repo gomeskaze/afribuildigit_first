@@ -1,6 +1,7 @@
 import React from 'react'
 import { useLanguage } from '../contexts/LanguageContext'
-import { Users, Target, Award, Globe, Heart, Zap } from 'lucide-react'
+import { Link } from 'react-router-dom'
+import { Users, Target, Award, Globe, Heart, Zap, ArrowRight } from 'lucide-react'
 import './About.css'
 
 const About = () => {
@@ -171,6 +172,25 @@ const About = () => {
                   <span>{t('measurableResults')}</span>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Section CTA */}
+      <section className="cta-section section">
+        <div className="container">
+          <div className="cta-content">
+            <h2>{t('readyToTransform')}</h2>
+            <p>{t('contactToday')}</p>
+            <div className="cta-actions">
+              <Link to="/contact" className="btn btn-primary">
+                {t('contact')}
+                <ArrowRight size={20} />
+              </Link>
+              <Link to="/services" className="btn btn-secondary">
+                {t('discoverOurServices')}
+              </Link>
             </div>
           </div>
         </div>

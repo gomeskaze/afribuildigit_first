@@ -94,6 +94,12 @@ const Home = () => {
     <div className="home">
       {/* Section Hero */}
       <section className="hero-section">
+        <video className="hero-video" autoPlay muted loop playsInline>
+          <source src="/videos/server-background.mp4" type="video/mp4" />
+          <source src="/videos/server-background.webm" type="video/webm" />
+          Votre navigateur ne supporte pas la lecture de vidéos.
+        </video>
+        <div className="hero-overlay"></div>
         <div className="container">
           <div className="hero-content">
             <h1 className="hero-title">
@@ -131,16 +137,20 @@ const Home = () => {
             <h2>{t('ourServices')}</h2>
             <p>{t('discoverServices')}</p>
           </div>
-          <div className="services-grid grid grid-4">
+          <div className="services-tiles">
             {services.map((service, index) => (
-              <div key={index} className="service-card card">
-                <div className="service-icon" style={{ color: service.color }}>
-                  <service.icon size={48} />
+              <div key={index} className="service-tile">
+                <div className="tile-body">
+                  <div className="tile-icon" style={{ color: service.color }}>
+                    <service.icon size={48} />
+                  </div>
+                  <div className="tile-text">
+                    <h3 className="tile-title">{service.title}</h3>
+                    <p className="tile-desc">{service.description}</p>
+                  </div>
                 </div>
-                <h3>{service.title}</h3>
-                <p>{service.description}</p>
-                <Link to="/services" className="service-link">
-                  {t('learnMoreLink')} <ArrowRight size={16} />
+                <Link to="/services" className="tile-arrow" aria-label={t('learnMoreLink')}>
+                  <ArrowRight size={20} />
                 </Link>
               </div>
             ))}
@@ -197,6 +207,27 @@ const Home = () => {
                 {t('discoverOurServices')}
               </Link>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Section Partenaires */}
+      <section className="partners-section section">
+        <div className="container">
+          <div className="section-header">
+            <h2>{t('partnersTitle')}</h2>
+            <p>{t('partnersSubtitle')}</p>
+          </div>
+          <div className="partners-grid">
+            <a className="partner" href="https://totalenergies.com/" target="_blank" rel="noreferrer" aria-label="TotalEnergies">
+              <img src="/partners/totalenergies.png" alt="TotalEnergies" />
+            </a>
+            <a className="partner" href="https://laahtech.com/" target="_blank" rel="noreferrer" aria-label="Laahtech">
+              <img src="/partners/laahtech.png" alt="Laahtech" />
+            </a>
+            <a className="partner" href="https://maviance.com/" target="_blank" rel="noreferrer" aria-label="Maviance">
+              <img src="/partners/maviance.png" alt="Maviance" />
+            </a>
           </div>
         </div>
       </section>
