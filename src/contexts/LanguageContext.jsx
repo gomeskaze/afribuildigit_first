@@ -10,7 +10,8 @@ const translations = {
     services: 'Services',
     career: 'Carrière',
     contact: 'Contact',
-    
+    companyOverview: 'Présentation de l\'entreprise',
+    //------------------------------------------------------------------------------------------------------
     // Page d'accueil
     heroTitle: 'AfriBuilDigit Group',
     heroSubtitle1: 'Une vision stimulante.',
@@ -205,6 +206,7 @@ const translations = {
     solutionsFirstParagraph: 'En tant que spécialiste hautement certifié des services informatiques, nous disposons d\'un large portefeuille de services : des services cloud les plus modernes aux infrastructures informatiques sur mesure et services gérés, en passant par les sujets de sécurité et autres services de support, tout est inclus pour une informatique d\'entreprise bien positionnée afin de répondre aux exigences croissantes de la transformation numérique.',
     solutionsSecondParagraph: 'Avec nos solutions logicielles intelligentes, nous maîtrisons les défis individuels et optimisons les processus métier complexes en étroite collaboration avec nos clients. Nous répondons précisément aux besoins spécifiques de l\'industrie de nos clients et trouvons soit la bonne solution dans notre portefeuille logiciel étendu, soit nous développons le logiciel approprié sur mesure pour votre entreprise.',
     
+    //------------------------------------------------------------------------------------------------------
     // À propos
     aboutTitle: 'À propos de nous',
     aboutDescription: 'Nous sommes une jeune et dynamique entreprise de services informatiques basée à Yaoundé, au Cameroun.',
@@ -231,8 +233,10 @@ const translations = {
     innovationDesc: 'Nous restons à la pointe des dernières technologies pour offrir des solutions innovantes.',
     ourTeam: 'Notre Équipe',
     teamSubtitle: 'Rencontrez les experts qui font d\'AfriBuilDigit Group votre partenaire de confiance',
-    ceoFounder: 'CEO & Co-fondateur',
-    ctoFounder: 'CTO & Co-fondateur',
+    ceoFounder: 'PDG & Co-fondateur',
+    ctoFounder: 'DG & Co-fondateur',
+    officeManager: 'Directeur des opérations',
+    hrManager: 'Directeur des ressources humaines',
     leadDataScientist: 'Lead Data Scientist',
     ctoDesc: 'Expert en Cloud data science et Ingénieure de données avec plus de 10 ans d\'expérience professionnel.',
     ceoDesc: 'Expert en Cloud data science et Ingénieure en développement logiciel spécialisée dans les architectures cloud.',
@@ -558,6 +562,8 @@ const translations = {
     teamSubtitle: 'Meet the experts who make AfriBuilDigit Group your trusted partner',
     ceoFounder: 'CEO & Co-founder',
     ctoFounder: 'CTO & Co-founder',
+    officeManager: 'Office Manager',
+    hrManager: 'HR Manager',
     leadDataScientist: 'Lead Data Scientist',
     ctoDesc: 'Expert in Cloud data science and data engineering with over 10 years of professional experience.',
     ceoDesc: 'Expert in Cloud data science and Software engineering specialized in cloud architectures.',
@@ -882,6 +888,8 @@ const translations = {
     teamSubtitle: 'Treffen Sie die Experten, die AfriBuilDigit Group zu Ihrem zuverlässigen Partner machen',
     ceoFounder: 'CEO & Co-founder',
     ctoFounder: 'CTO & Co-founder',
+    officeManager: 'Office Manager',
+    hrManager: 'HR Manager',
     leadDataScientist: 'Lead Data Scientist',
     ctoDesc: 'Experte für Cloud Data Science und Datenengineering mit mehr als 10 Jahren professioneller Erfahrung',
     ceoDesc: 'Experte für Cloud Data Science und Software-Ingenieur, spezialisiert auf Cloud-Architekturen.',

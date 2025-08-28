@@ -97,12 +97,12 @@
 }
 
 .team-photo {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.1rem;
 }
 
 .photo-placeholder {
-  width: 120px;
-  height: 120px;
+  width: 350px;
+  height: 266px;
   border-radius: 50%;
   background: var(--background-dark);
   display: flex;

@@ -35,7 +35,7 @@ const About = () => {
       name: 'Joel Kaze',
       role: t('ceoFounder'),
       description: t('ceoDesc'),
-      image: '/team/ceo.jpg'
+      image: '/team/kaze.png'
     },
     {
       name: 'Sammy Ndzelen',
@@ -47,7 +47,19 @@ const About = () => {
       name: 'David Etoa',
       role: t('leadDataScientist'),
       description: t('dataScientistDesc'),
-      image: '/team/data-scientist.jpg'
+      image: '/team/office_manager.png'
+    },
+    {
+      name: 'David Etoa',
+      role: t('hrManager'),
+      description: t('dataScientistDesc'),
+      image: '/team/HR_Manager.png'
+    },
+    {
+      name: 'David Etoa',
+      role: t('officeManager'),
+      description: t('dataScientistDesc'),
+      image: '/team/officeManager.png'
     }
   ]
 
@@ -67,7 +79,43 @@ const About = () => {
         </div>
       </section>
 
-      {/* Section Histoire */}
+            {/* Section Historie */}
+            <section className="history-section section">
+        <div className="container">
+        <div className="section-header">
+            <h2>{t('ourHistory')}</h2>
+          </div>
+          <div className="solutions-content">
+            <div className="solutions-image">
+              <img src="/images/team-collaboration.jpg" alt="Équipe en collaboration" />
+            </div>
+            <div className="solutions-text">
+              <span className="solutions-subtitle">{t('ourITSoftwareSolutions')}</span>
+              <h2 className="solutions-title">{t('advancedITForBusinessSuccess')}</h2>
+              <div className="solutions-description">
+                <p>{t('solutionsFirstParagraph')}</p>
+                <p>{t('solutionsSecondParagraph')}</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="solutions-content">
+            <div className="solutions-text">
+              <span className="solutions-subtitle">{t('ourITSoftwareSolutions')}</span>
+              <h2 className="solutions-title">{t('advancedITForBusinessSuccess')}</h2>
+              <div className="solutions-description">
+                <p>{t('solutionsFirstParagraph')}</p>
+                <p>{t('solutionsSecondParagraph')}</p>
+              </div>
+            </div>
+            <div className="solutions-image">
+              <img src="/images/team-collaboration.jpg" alt="Équipe en collaboration" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Section Vision */}
       <section className="history-section section">
         <div className="container">
           <div className="section-header">
@@ -86,11 +134,11 @@ const About = () => {
             </div>
             <div className="history-stats">
               <div className="stat-item">
-                <div className="stat-number">2020</div>
+                <div className="stat-number">2024</div>
                 <div className="stat-label">{t('foundingYear')}</div>
               </div>
               <div className="stat-item">
-                <div className="stat-number">3</div>
+                <div className="stat-number">2</div>
                 <div className="stat-label">{t('founders')}</div>
               </div>
               <div className="stat-item">
@@ -101,6 +149,7 @@ const About = () => {
           </div>
         </div>
       </section>
+
 
       {/* Section Valeurs */}
       <section className="values-section section">
@@ -123,7 +172,7 @@ const About = () => {
         </div>
       </section>
 
-      {/* Section Équipe */}
+     {/* Section Équipe */}
       <section className="team-section section">
         <div className="container">
           <div className="section-header">
@@ -134,9 +183,17 @@ const About = () => {
             {team.map((member, index) => (
               <div key={index} className="team-card card">
                 <div className="team-photo">
-                  <div className="photo-placeholder">
-                    <Users size={60} />
-                  </div>
+                  {member.image ? (
+                    <img
+                      src={member.image}
+                      alt={member.name}
+                      className="photo-img"
+                    />
+                  ) : (
+                    <div className="photo-placeholder">
+                      <Users size={250} />
+                    </div>
+                  )}
                 </div>
                 <div className="team-info">
                   <h3>{member.name}</h3>

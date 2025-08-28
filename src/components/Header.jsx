@@ -16,8 +16,9 @@ const Header = () => {
       label: t('about'),
       path: '/about',
       dropdown: [
-        { label: 'Notre Histoire', path: '/about#history' },
+        { label: t('companyOverview'), path: '/about' },
         { label: 'Notre Équipe', path: '/about#team' },
+        { label: 'Nos Emplacements', path: '/about#locations' },
         { label: 'Nos Valeurs', path: '/about#values' }
       ]
     },
