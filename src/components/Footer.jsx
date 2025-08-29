@@ -38,6 +38,7 @@ const Footer = () => {
         { label: t('healthcare'), path: '/industries#healthcare' },
         { label: t('finance'), path: '/industries#finance' },
         { label: t('agritech'), path: '/industries#agritech' },
+        { label: t('energie'), path: '/industries#energie' },
         { label: t('manufacturing'), path: '/industries#manufacturing' },
         { label: t('transport'), path: '/industries#transport' },
         { label: t('retail'), path: '/industries#retail' }

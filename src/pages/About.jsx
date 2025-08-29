@@ -3,6 +3,9 @@ import { useLanguage } from '../contexts/LanguageContext'
 import { Link } from 'react-router-dom'
 import { Users, Target, Award, Globe, Heart, Zap, ArrowRight } from 'lucide-react'
 import './About.css'
+import { Linkedin, Twitter } from "lucide-react"    
+import { SiXing } from "react-icons/si"
+import { DollarSign, HeartPulse, Factory, Sprout, Bus, ShoppingCart, Sun } from "lucide-react";   // Agritech
 
 const About = () => {
   const { t } = useLanguage()
@@ -35,33 +38,78 @@ const About = () => {
       name: 'Joel Kaze',
       role: t('ceoFounder'),
       description: t('ceoDesc'),
-      image: '/team/kaze.png'
+      image: '/team/kaze.png', 
+      socials: [
+        { icon: <SiXing />, link: "https://www.xing.com/profile/Joel_Kaze/web_profiles" },
+        { icon: <Twitter />, link: "#" },
+        { icon: <Linkedin />, link: "https://www.linkedin.com/in/joel-kaze-6a077712b/" },
+      ]
     },
     {
       name: 'Sammy Ndzelen',
       role: t('ctoFounder'),
       description: t('ctoDesc'),
-      image: '/team/cto.jpg'
+      image: '/team/cto.jpg',
+      socials: [
+        { icon: <SiXing />, link: "#" },
+        { icon: <Twitter />, link: "#" },
+        { icon: <Linkedin />, link: "#" },
+      ]
     },
     {
-      name: 'David Etoa',
-      role: t('leadDataScientist'),
-      description: t('dataScientistDesc'),
-      image: '/team/office_manager.png'
-    },
-    {
-      name: 'David Etoa',
+      name: 'Lidia Ngo',
       role: t('hrManager'),
       description: t('dataScientistDesc'),
-      image: '/team/HR_Manager.png'
+      image: '/team/hrManager.png',
+      socials: [
+        { icon: <SiXing />, link: "#" },
+        { icon: <Twitter />, link: "#" },
+        { icon: <Linkedin />, link: "#" },
+      ]
+    },
+    {
+      name: 'David Etoa',
+      role: t('projectManager'),
+      description: t('dataScientistDesc'),
+      image: '/team/projectManager.png',
+      socials: [
+        { icon: <SiXing />, link: "#" },
+        { icon: <Twitter />, link: "#" },
+        { icon: <Linkedin />, link: "#" },
+      ]
     },
     {
       name: 'David Etoa',
       role: t('officeManager'),
       description: t('dataScientistDesc'),
-      image: '/team/officeManager.png'
+      image: '/team/officeManager.png',
+      socials: [
+        { icon: <SiXing />, link: "#" },
+        { icon: <Twitter />, link: "#" },
+        { icon: <Linkedin />, link: "#" },
+      ]
+    },
+    {
+      name: 'David Etoa',
+      role: t('accountManager'),
+      description: t('dataScientistDesc'),
+      image: '/team/accountManager.png',
+      socials: [
+        { icon: <SiXing />, link: "#" },
+        { icon: <Twitter />, link: "#" },
+        { icon: <Linkedin />, link: "#" },
+      ]
     }
   ]
+  const industries = [
+    { name: "Finance", icon: <DollarSign size={34} /> },
+    { name: "Santé", icon: <HeartPulse size={34} /> },
+    { name: "Manufacture", icon: <Factory size={34} /> },
+    { name: "Agritech", icon: <Sprout size={34} /> },
+    { name: "Transport publics", icon: <Bus size={34} /> },
+    { name: "Commerce & e-commerce", icon: <ShoppingCart size={34} /> },
+    { name: "Energies", icon: <Sun size={34} /> },
+  ];
 
   return (
     <div className="about">
@@ -71,9 +119,7 @@ const About = () => {
           <div className="about-hero-content">
             <h1>{t('aboutTitle')}</h1>
             <p className="about-hero-description">
-              {t('aboutDescription')} Nos fondateurs cumulent de nombreuses années d'expérience 
-              dans la mise en œuvre de solutions basées sur les données pour des entreprises 
-              de divers secteurs.
+              {t('aboutDescription')} 
             </p>
           </div>
         </div>
@@ -179,7 +225,7 @@ const About = () => {
             <h2>{t('ourTeam')}</h2>
             <p>{t('teamSubtitle')}</p>
           </div>
-          <div className="team-grid grid grid-3">
+          <div className="team-grid grid grid-2">
             {team.map((member, index) => (
               <div key={index} className="team-card card">
                 <div className="team-photo">
@@ -198,8 +244,15 @@ const About = () => {
                 <div className="team-info">
                   <h3>{member.name}</h3>
                   <p className="team-role">{member.role}</p>
-                  <p className="team-description">{member.description}</p>
+                  {/* <p className="team-description">{member.description}</p> */}
                 </div>
+                <div className="team-socials">
+              {member.socials.map((s, i) => (
+                <a key={i} href={s.link} target="_blank" rel="noreferrer">
+                  {s.icon}
+                </a>
+              ))}
+            </div>
               </div>
             ))}
           </div>
@@ -222,7 +275,7 @@ const About = () => {
                 </div>
                 <div className="mission-point">
                   <Award size={24} />
-                  <span>{t('technicalExcellence')}</span>
+                  <span>{t('technicalExcellenceRec')}</span>
                 </div>
                 <div className="mission-point">
                   <Target size={24} />
@@ -233,6 +286,18 @@ const About = () => {
           </div>
         </div>
       </section>
+
+      <section className="industries-section section">
+      <h2 className="industries-title">Nos industries</h2>
+      <div className="industries-grid grid grid-2">
+        {industries.map((item, idx) => (
+          <div key={idx} className="industry-card">
+            <div className="industry-icon">{item.icon}</div>
+            <h3><p className="industry-name">{item.name}</p></h3>
+          </div>
+        ))}
+      </div>
+    </section>
 
       {/* Section CTA */}
       <section className="cta-section section">
