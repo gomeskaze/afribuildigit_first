@@ -5,7 +5,7 @@ import { Users, Target, Award, Globe, Heart, Zap, ArrowRight } from 'lucide-reac
 import './About.css'
 import { Linkedin, Twitter } from "lucide-react"    
 import { SiXing } from "react-icons/si"
-import { DollarSign, HeartPulse, Factory, Sprout, Bus, ShoppingCart, Lightbulb } from "lucide-react";   // Agritech
+import { DollarSign, HeartPulse, Factory, Sprout, Bus, ShoppingCart, Lightbulb, GraduationCap } from "lucide-react";   // Agritech
 
 const About = () => {
   const { t } = useLanguage()
@@ -102,13 +102,14 @@ const About = () => {
     }
   ]
   const industries = [
-    { name: t('finance'), icon: <DollarSign size={34} /> },
-    { name: t('healthcare'), icon: <HeartPulse size={34} /> },
-    { name: t('manufacturing'), icon: <Factory size={34} /> },
-    { name: t('agritech'), icon: <Sprout size={34} /> },
-    { name: t('transport'), icon: <Bus size={34} /> },
-    { name: t('retail'), icon: <ShoppingCart size={34} /> },
-    { name: t('energy'), icon: <Lightbulb size={34} /> },
+    { name: t('finance'), icon: <DollarSign size={34} color="#6f67d6"/> },
+    { name: t('healthcare'), icon: <HeartPulse size={34} color="#6f67d6"/> },
+    { name: t('manufacturing'), icon: <Factory size={34} color="#6f67d6"/> },
+    { name: t('agritech'), icon: <Sprout size={34} color="#6f67d6"/> },
+    { name: t('transport'), icon: <Bus size={34} color="#6f67d6"/> },
+    { name: t('retail'), icon: <ShoppingCart size={34} color="#6f67d6"/> },
+    { name: t('energy'), icon: <Lightbulb size={34} color="#6f67d6"/> },
+    { name: t('education'), icon: <GraduationCap size={34} color="#6f67d6" /> },
   ];
 
   return (

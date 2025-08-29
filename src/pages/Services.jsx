@@ -221,7 +221,7 @@ const Services = () => {
                 <p>{service.description.substring(0, 150)}...</p>
                 <div className="service-card-action">
                   <span>{t('learnMore')}</span>
-                  <ArrowRight size={16} />
+                  <ArrowRight size={20} />
                 </div>
               </div>
             ))}

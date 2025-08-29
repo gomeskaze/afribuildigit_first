@@ -150,7 +150,7 @@ const Home = () => {
                   </div>
                 </div>
                 <Link to="/services" className="tile-arrow" aria-label={t('learnMoreLink')}>
-                  <ArrowRight size={20} />
+                  <ArrowRight size={30} />
                 </Link>
               </div>
             ))}
