@@ -263,7 +263,7 @@ const translations = {
     industriesTitle: 'Nos Industries',
     industriesSubtitle: 'Nous servons divers secteurs d\'activité avec des solutions adaptées',
     healthcare: 'Santé',
-    energie: 'Energies',
+    energy: 'Energies',
     finance: 'Finance',
     agritech:'Agritech',
     transport: 'Transports publics',
@@ -275,7 +275,7 @@ const translations = {
     // Descriptions des industries
     healthcareDesc: 'Solutions innovantes pour améliorer les soins de santé et optimiser les processus médicaux.',
     financeDesc: 'Technologies avancées pour sécuriser les transactions et optimiser les services financiers.',
-    energieDesc: 'Nous mettons a votre disposition une plateforme intelligente qui transformera vos données énergétiques en leviers de croissance et d\'économies concrètes',
+    energyDesc: 'Nous mettons a votre disposition une plateforme intelligente qui transformera vos données énergétiques en leviers de croissance et d\'économies concrètes',
     retailDesc: 'Solutions e-commerce et analytics pour optimiser l\'expérience client et les ventes.',
     manufacturingDesc: 'IoT et analytics pour améliorer la productivité et réduire les coûts de production.',
     
@@ -592,7 +592,7 @@ const translations = {
     industriesSubtitle: 'We serve various business sectors with tailored solutions',
     healthcare: 'Healthcare',
     finance: 'Finance',
-    energie: 'Energies',
+    energy: 'Energies',
     agritech:'Agritech',
     transport: 'Public Transports',
     retail: 'Retail & E-Commerce',
@@ -603,7 +603,7 @@ const translations = {
     // Industry descriptions
     healthcareDesc: 'Innovative solutions to improve healthcare and optimize medical processes.',
     financeDesc: 'Advanced technologies to secure transactions and optimize financial services.',
-    energieDesc: 'We put at your disposal an intelligent platform that will transform your energy data into growth levers and concrete savings',
+    energyDesc: 'We put at your disposal an intelligent platform that will transform your energy data into growth levers and concrete savings',
     retailDesc: 'E-commerce and analytics solutions to optimize customer experience and sales.',
     manufacturingDesc: 'IoT and analytics to improve productivity and reduce production costs.',
     
@@ -919,7 +919,7 @@ const translations = {
     industriesSubtitle: 'Wir bedienen verschiedene Geschäftsbereiche mit maßgeschneiderten Lösungen',
     healthcare: 'Gesundheitswesen',
     finance: 'Finanzen',
-    energie: 'Energies',
+    energy: 'Energien',
     agritech:'Agritech',
     transport: 'Öffentliche Verkehrsmittel',
     retail: 'Einzelhandel & e-Commerce',
@@ -930,7 +930,7 @@ const translations = {
     // Industry descriptions
     healthcareDesc: 'Innovative Lösungen zur Verbesserung der Gesundheitsversorgung und Optimierung medizinischer Prozesse.',
     financeDesc: 'Fortschrittliche Technologien zur Sicherung von Transaktionen und Optimierung von Finanzdienstleistungen.',
-    energieDesc: 'Wir stellen über eine intelligente Plattform zur Verfügung, die Ihre Energiedaten in Wachstumshebel und konkrete Einsparungen umwandelt.',
+    energyDesc: 'Wir stellen über eine intelligente Plattform zur Verfügung, die Ihre Energiedaten in Wachstumshebel und konkrete Einsparungen umwandelt.',
     retailDesc: 'E-Commerce und Analytics-Lösungen zur Optimierung der Kundenbetreuung und des Verkaufs.',
     manufacturingDesc: 'IoT und Analytics zur Verbesserung der Produktivität und Reduzierung der Produktionskosten.',
     

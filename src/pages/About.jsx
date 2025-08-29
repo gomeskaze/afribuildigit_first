@@ -5,7 +5,7 @@ import { Users, Target, Award, Globe, Heart, Zap, ArrowRight } from 'lucide-reac
 import './About.css'
 import { Linkedin, Twitter } from "lucide-react"    
 import { SiXing } from "react-icons/si"
-import { DollarSign, HeartPulse, Factory, Sprout, Bus, ShoppingCart, Sun } from "lucide-react";   // Agritech
+import { DollarSign, HeartPulse, Factory, Sprout, Bus, ShoppingCart, Lightbulb } from "lucide-react";   // Agritech
 
 const About = () => {
   const { t } = useLanguage()
@@ -102,13 +102,13 @@ const About = () => {
     }
   ]
   const industries = [
-    { name: "Finance", icon: <DollarSign size={34} /> },
-    { name: "Santé", icon: <HeartPulse size={34} /> },
-    { name: "Manufacture", icon: <Factory size={34} /> },
-    { name: "Agritech", icon: <Sprout size={34} /> },
-    { name: "Transport publics", icon: <Bus size={34} /> },
-    { name: "Commerce & e-commerce", icon: <ShoppingCart size={34} /> },
-    { name: "Energies", icon: <Sun size={34} /> },
+    { name: t('finance'), icon: <DollarSign size={34} /> },
+    { name: t('healthcare'), icon: <HeartPulse size={34} /> },
+    { name: t('manufacturing'), icon: <Factory size={34} /> },
+    { name: t('agritech'), icon: <Sprout size={34} /> },
+    { name: t('transport'), icon: <Bus size={34} /> },
+    { name: t('retail'), icon: <ShoppingCart size={34} /> },
+    { name: t('energy'), icon: <Lightbulb size={34} /> },
   ];
 
   return (
@@ -287,11 +287,12 @@ const About = () => {
         </div>
       </section>
 
+      {/* Section Industries */}
       <section className="industries-section section">
       <h2 className="industries-title">Nos industries</h2>
       <div className="industries-grid grid grid-2">
         {industries.map((item, idx) => (
-          <div key={idx} className="industry-card">
+          <div key={idx} className={`industry-card ${item.name === t('energy') ? "energy-card" : ""}`}>
             <div className="industry-icon">{item.icon}</div>
             <h3><p className="industry-name">{item.name}</p></h3>
           </div>

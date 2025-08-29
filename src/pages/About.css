@@ -276,5 +276,15 @@
     font-size: 1rem;
     text-decoration: #8b5cf6;
   }
+  /* Effet spécial pour la carte "Energies" */
+.energy-card .industry-icon {
+  color: #facc15; /* jaune clair */
+}
+
+.energy-card .industry-icon:hover {
+  background: #facc15;
+  color: #fff;
+  box-shadow: 0 0 25px rgba(250, 204, 21, 0.8); /* effet lumière */
+}
   
 } 
