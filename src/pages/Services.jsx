@@ -270,7 +270,7 @@ const Services = () => {
       )}
 
       {/* Section CTA */}
-      <section className="section cta-section-dark">
+      <section className="section cta-section-dark" style={{ backgroundImage: "url('/images/IT-Infrastructure.png')" }}>
         <div className="container">
           <div className="cta-content">
             <h2>{t('readyToStart')}</h2>

@@ -36,28 +36,79 @@
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 }
 
+.industries .industry-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.industries .industry-link:hover {
+  transform: translateY(-5px);
+}
+
 .industries .industry-card {
   background: white;
   border-radius: 12px;
-  padding: 2rem;
+  padding: 0;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: box-shadow 0.3s ease;
+  height: 100%;
+  overflow: hidden;
 }
 
 .industries .industry-card:hover {
-  transform: translateY(-5px);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
-.industries .industry-icon {
-  color: #6f36f3;
-  margin-bottom: 1.5rem;
+.industries .industry-card .container {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 2rem;
+  position: relative;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 12px 12px 0 0;
 }
 
-.industries .industry-card h3 {
-  font-size: 1.5rem;
+.industries .industry-card .container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.3) 100%);
+  z-index: 1;
+  border-radius: 12px 12px 0 0;
+}
+
+.industries .industry-card .industry-icon {
+  color: white;
   margin-bottom: 1rem;
-  color: #333;
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.8));
+  position: relative;
+  z-index: 2;
+}
+
+.industries .industry-card .container h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  color: white;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  letter-spacing: 0.5px;
+  position: relative;
+  z-index: 2;
+}
+
+.industries .industry-card .content-section {
+  padding: 2rem;
+  background: white;
 }
 
 .industries .industry-card p {
@@ -84,6 +135,59 @@
   left: 0;
   color: #8b5cf6;
   font-weight: bold;
+}
+
+.industries .industry-card .container {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 2rem;
+  position: relative;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-radius: 12px 12px 0 0;
+}
+
+.industries .industry-card .container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.3) 100%);
+  z-index: 1;
+  border-radius: 12px 12px 0 0;
+}
+
+.industries .industry-card .industry-icon,
+.industries .industry-card .container h3 {
+  position: relative;
+  z-index: 2;
+  color: white;
+}
+
+.industries .industry-card .industry-icon {
+  color: white;
+  margin-bottom: 1rem;
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.8));
+}
+
+.industries .industry-card .container h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  color: white;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  letter-spacing: 0.5px;
+}
+
+.industries .industry-card .content-section {
+  padding: 2rem;
+  background: white;
 }
 
 /* Section CTA avec background sombre */

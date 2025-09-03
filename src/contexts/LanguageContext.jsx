@@ -273,7 +273,8 @@ const translations = {
     readyToTransformIndustry: 'Prêt à se connecter avec nos experts?',
     contactForIndustry: 'Contactez-nous pour discuter de vos besoins spécifiques et découvrir nos solutions adaptées à votre industrie',
     education: 'Education',
-    Automotive: 'Automobiles',
+    automotive: 'Automobiles',
+    construction: 'Construction',
 
     // Descriptions des industries
     healthcareDesc: 'Nous exploitons les possibilités offertes par la réalité virtuelle, le Big Data, la science des données, la blockchain et d\'autres technologies disruptives pour proposer des solutions logicielles de santé qui façonnent l\'avenir de la médecine. Nous combinons notre solide expertise technique et notre connaissance du domaine pour aider les entreprises du secteur de la santé à impulser des changements dans les technologies médicales, la médecine personnalisée, les sciences de la vie, la bioinformatique et d\'autres domaines.',
@@ -284,6 +285,8 @@ const translations = {
     transportDesc: 'Dans un environnement urbain en constante évolution, les opérateurs de transports publics doivent optimiser leurs opérations, améliorer l\’expérience des usagers et réduire les coûts. Notre logiciel d\’analyse de données permet de collecter, centraliser et exploiter toutes vos données pour transformer vos opérations de mobilité.',
     agritechDesc: 'AfriBuilDigit propose des services de développement de logiciels agrotechnologiques à des clients internationaux. Nos ingénieurs développent des solutions agricoles complexes qui aident les agriculteurs à optimiser leurs rendements. Nous créons des solutions d\'analyse de terrain par drone, des applications de mobilité d\'entreprise, des logiciels d\'automatisation des processus et de gestion agricole, des systèmes d\'analyse de données, et bien plus encore.',
     educationDesc: 'Nous concevons et développons des applications EdTech pour la formation en entreprise, l\'apprentissage en ligne et le grand public. Nos programmeurs créent des solutions d\'apprentissage numérique offrant un accès illimité à des connaissances professionnelles, flexibles, économiques et adaptées aux besoins de chacun.',
+    constructionDesc: 'Dans un secteur où chaque retard ou surcoût peut avoir de lourdes conséquences, notre apport dans d\’analyse de données aide les entreprises de construction à mieux piloter leurs projets et à réduire les risques. Nous vous aidons à mettre en œuvre des projets de construction rapidement, solidement et à l\'épreuve du temps avec des technologies modernes.',
+    automotiveDesc: 'Nous proposons des solutions logicielles de gestion de projet pour les entreprises du secteur de la construction. Nous combinons notre solide expertise technique et notre connaissance du domaine pour aider les entreprises du secteur de la construction à gérer efficacement leurs projets.',
 
     // Solutions des industries
     healthcarediseasePredict: 'Analyse prédictive des maladies',
@@ -310,7 +313,12 @@ const translations = {
     educationApp: 'Applications éducatives personnalisées',
     educationLearning: 'Plateformes d\'apprentissage en ligne',
     educationSolutions: 'Solutions de gestion pédagogique',
-
+    constructionApp: 'Applications de gestion de projet pour la construction',
+    constructionLearning: 'Plateformes d\'apprentissage en ligne pour la construction',
+    constructionSolutions: 'Solutions de gestion de projet pour la construction',
+    automotiveApp: 'Solutions pour les véhicules intelligents connectés (V2V et V2X)',
+    automotiveLearning: 'Système d\'infodivertissement conforme aux normes genivi',
+    automotiveSolutions: 'Algorithmes de ML automatique qui préviennent les pannes',
     
     // Carrière
     careerTitle: 'Carrière',
@@ -618,6 +626,8 @@ const translations = {
     manufacturing: 'Manufacturing',
     readyToTransformIndustry: 'Ready to connect with our experts?',
     contactForIndustry: 'Contact us to discuss your specific needs and discover our solutions adapted to your industry',
+    construction: 'Construction',
+    automotive: 'automotive',
     
     // Industry descriptions
     healthcareDesc: 'Innovative solutions to improve healthcare and optimize medical processes.',
@@ -628,6 +638,8 @@ const translations = {
     transportDesc: 'In a constantly evolving urban environment, public transport operators must optimize their operations, improve the user experience, and reduce costs. Our data analytics software allows you to collect, centralize, and leverage all your data to transform your mobility operations.',
     agritechDesc: 'AfriBuilDigit provides agritech software development services for global customers. Our engineers develop complex agriculture solutions that help farmers harvest larger yields. We create drone field analysis solutions, enterprise mobility applications, process automation and farm management software, data analytics systems, and more.',
     educationDesc: 'We design and develop EdTech applications for corporate education, e-learning, and general use. Our programmers build digital learning solutions that provide unlimited access to professional knowledge that is flexible, cost-effetive, and tailored to each individual\'s needs.',
+    constructionDesc: 'In a sector where every delay or additional cost can have serious consequences, our contribution to data analysis helps construction companies better manage their projects and reduce risks. We can help you implementing construction projects quickly, solidly and future-proof with modern technologies',
+    automotiveDesc: 'We offer software project management solutions to construction companies. We combine our technical expertise and domain knowledge to help construction companies manage their projects effectively.',
     
     // Industry solutions
     healthcarediseasePredict: 'Disease prediction analysis',
@@ -654,7 +666,13 @@ const translations = {
     educationApp: 'Custom educational Apps',
     educationLearning: 'E-Learning platforms',
     educationSolutions: 'Instructional management solutions',
-
+    constructionApp: 'Project management software for construction',
+    constructionLearning: 'E-Learning platforms for construction',
+    constructionSolutions: 'Project management solutions for construction',
+    automotiveApp: 'Solutions for the connected smart vehicles (V2V and V2X)',
+    automotiveLearning: 'Infotainment system compliant with genivi standards',
+    automotiveSolutions: 'Machine learning algorithms that prevent failures',
+    
     
     // Career
     careerTitle: 'Career',
@@ -961,7 +979,8 @@ const translations = {
     manufacturing: 'Fertigung',
     readyToTransformIndustry: 'Bereit, unseren Experten zu kontaktieren?',
     contactForIndustry: 'Kontaktieren Sie uns, um Ihre spezifischen Bedürfnisse zu besprechen und unsere an Ihre Branche angepassten Lösungen zu entdecken',
-  
+    construction: 'Bauwesen',
+    automotive: 'Automobilindustrie',
 
     // Industry descriptions
     healthcareDesc: 'Innovative Lösungen zur Verbesserung der Gesundheitsversorgung und Optimierung medizinischer Prozesse.',
@@ -972,7 +991,8 @@ const translations = {
     transportDesc: 'In einem sich ständig weiterentwickelnden städtischen Umfeld müssen öffentliche Verkehrsbetriebe ihren Betrieb optimieren, das Benutzererlebnis verbessern und Kosten redukzieren. Mit unserer Datenanalyse-Software können Sie alle Ihre Daten erfassen, zentralisieren und nutzen, um Ihren Mobilitätsbetrieb zu transformieren.',
     agritechDesc: 'AfriBuilDigit bietet Agritech-Softwareentwicklung für Kunden weltweit. Unsere Ingenieure entwickeln komplexe Lösungen für lie Landwirtschaft, die Landwirten zu höheren Erträgen verhelfen. Wir entwickeln Lösungen für die Feldanalyse per Drohnen, Enterprise-Mobility-Anwendungen, Prozessautomatisierung und Farmmanagement-Software, Datenanalysesysteme und vieles mehr.',
     educationDesc: 'Wir entwerfen und entwickeln EdTech-Anwendungen für die betriebliche Weiterbildung, E-Learning und den allgemeinen Gebrauch. Unsere Programmierer entwickeln digitale Lernlösungen, die einen uneingeschränkten Zugang zu Fachwissen bieten, flexibel und kostengünstig sind und auf die individuellen Bedürfnisse jedes Einzelnen zugeschnitten sind.',
-
+    constructionDesc: 'In einer Branche, in der jede Verzögerung oder zusätzliche Kosten schwerwiegende Folgen haben können, hilft unser Beitrag zur Datenanalyse Bauunternehmen, ihre Projekte besser zu steuern und Risiken zu reduzieren. Wir unterstützen Sie dabei, Bauprojekte mit modernen Technologien schnell, solide und zukunftssicher umzusetzen.',
+    automotiveDesc: 'Wir bieten Softwareprojektmanagementlösungen für Bauunternehmen an. Wir kombinieren unsere technische Expertise und unsere Branchenkenntnisse, um Bauunternehmen dabei zu helfen, ihre Projekte effektiv zu verwalten.',
     
     // Industry solutions
     healthcarediseasePredict: 'Krankheitsvorhersage-Analyse',
@@ -999,7 +1019,13 @@ const translations = {
     educationApp: 'Maßgeschneiderte Bildungs-Apps',
     educationLearning: 'E-Learning-Plattformen',
     educationSolutions: 'Lösungen für das Unterrichtsmanagement',
-    
+    constructionApp: 'Softwareprojektmanagementlösungen für Bauunternehmen',
+    constructionLearning: 'E-Learning-Plattformen für Bauunternehmen',
+    constructionSolutions: 'Softwareprojektmanagementlösungen für Bauunternehmen',
+    automotiveApp: 'Lösungen für vernetzte intelligente Fahrzeugn (V2V und V2X)',
+    automotiveLearning: 'Infotainmentsystem, das den Genivi-Standards entspricht',
+    automotiveSolutions: 'Maschinelle Lernalgorithmen, die Fehlern verhindern',
+
     // Career
     careerTitle: 'Karriere',
     joinUs: 'Werden Sie Teil unseres Teams',
