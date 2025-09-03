@@ -196,12 +196,15 @@ const translations = {
     managementSystems: 'Systèmes de gestion',
     thirdPartyIntegrations: 'Intégrations tierces',
     maintenanceSupport: 'Maintenance et support',
-    
+    pubSolutionsTitle:'Animé par la passion des technologies.',
+    pubSolutionsParagraph_1:'AfriBuilDigit est un partenaire de confiance en développement logiciel pour les leaders du secteur. Nous avons accumulé une expertise technologique diversifiée, allant des solutions cloud et de l\'analyse de données à l\'IA et à l\'IoT.',
+    pubSolutionsParagraph_2:'Au fil du temps, nous travaillons sans relâche à améliorer nos compétences technologiques, en investissant dans le développement de nos talents, leur formation et leur certification, et en créant et développant notre Bureau des Technologies ainsi que de nombreux programmes visant à élargir nos horizons technologiques. La diversité des projets que nous menons avec nos partenaires nous a également permis d\'acquérir une expérience inégalée non seulement dans le domaine technologique, mais aussi dans de nombreux domaines d\'activité, tels que la finance, l\'industrie manufacturière, la chaîne d\'approvisionnement, les télécommunications, la vente au détail et la santé, pour n\'en citer que quelques-uns.',
+    pubSolutionsParagraph_3:'De plus, au cours des prochaines années, nous allons bâtir un vaste écosystème de partenaires technologiques afin d\'apporter encore plus de valeur à nos clients. AfriBuilDigit collabore avec les principaux hyperscalers cloud tels qu\'AWS, GCP et Microsoft, ainsi qu\'avec des entreprises technologiques de premier plan comme Snowflake, Automation Anywhere, UIPath, Nordic Semiconductor, et bien d\'autres.',
     // clients
     clientsTitle: 'Nos Clients',
     clientsSubtitle: 'Les exigences informatiques de nos clients sont aussi variés que leurs entreprises et leurs secteurs d\'activité. Cependant, ils ont un point commun : ils reconnaissent que des environnements informatiques modernes et fiables constituent le fondement de modèles économiques durables et de la réussite économique.',
     
-    // Solutions IT
+    // Solutions pub IT
     ourITSoftwareSolutions: 'Nos Solutions IT et Logiciels',
     advancedITForBusinessSuccess: 'IT Avancée pour Votre Succès Commercial',
     solutionsFirstParagraph: 'En tant que spécialiste hautement certifié des services informatiques, nous disposons d\'un large portefeuille de services : des services cloud les plus modernes aux infrastructures informatiques sur mesure et services gérés, en passant par les sujets de sécurité et autres services de support, tout est inclus pour une informatique d\'entreprise bien positionnée afin de répondre aux exigences croissantes de la transformation numérique.',
@@ -418,6 +421,10 @@ const translations = {
     whatWeOffer: 'What we offer:',
     readyToStart: 'Ready to start your project?',
     contactForQuote: 'Contact us to discuss your needs and get a personalized quote',
+    pubSolutionsTitle:'Driven by passion for technology.',
+    pubSolutionsParagraph_1: 'AfriBuilDigit has been a trusted software development partner for industry leaders. We have accumulated a wide range of tech expertise ranging from Cloud Solutions and Data Analytics to AI and IoT.',
+    pubSolutionsParagraph_1: 'Over the times, we are relentlessly working on our tech proficiency, investing into the growth of our talents, their training and certification, established and grew our Technology Office as well as multiple programs targeted at widening our tech horizons. The diversity of projects we complete together with our partners has also helped us gain unmatched experience not only in tech but also multiple business domains, including finance, manufacturing, supply chain, telecom, retail, healthcare, to name but a few.',
+    pubSolutionsParagraph_3:'Moreover, in the last next years, we\'ll build a wide tech partner ecosystem to bring even more value to our clients. AfriBuilDigit partners with all major cloud hyperscalers such as AWS, GCP, and Microsoft, as well as prominent tech companies including Snowflake, Automation Anywhere, UIPath, Nordic Semiconductor, and more.',
     
     // New services
     softwareEngineering: 'Software Engineering',
@@ -772,7 +779,10 @@ const translations = {
     whatWeOffer: 'Was wir anbieten:',
     readyToStart: 'Bereit, Ihr Projekt zu starten?',
     contactForQuote: 'Kontaktieren Sie uns, um Ihre Bedürfnisse zu besprechen und ein personalisiertes Angebot zu erhalten',
-    
+    pubSolutionsTitle: 'Angetrieben von der Leidenschaft für Technologie.',
+    pubSolutionsParagraph_1: 'AfriBuilDigit ist ein zuverlässiger Softwareentwicklungspartner für Branchenführer. Wir haben ein breites Spektrum an technischer Expertise aufgebaut, das von Cloud-Lösungen und Datenanalyse bis hin zu KI und IoT reicht.',
+    pubSolutionsParagraph_2: 'Wir arbeiten kontinuierlich an unserer technischen Kompetenz, investieren in die Entwicklung unserer Talente, deren Schulung und Zertifizierung, haben unser Technologiebüro gegründet und erweitert und bieten zahlreiche Programme zur Erweiterung unseres technischen Horizonts an. Die Vielfalt der Projekte, die wir gemeinsam mit unseren Partnern durchführen, hat uns zudem zu unübertroffener Erfahrung nicht nur im Technologiebereich, sondern auch in verschiedenen Geschäftsbereichen wie Finanzen, Fertigung, Lieferkette, Telekommunikation, Einzelhandel und Gesundheitswesen verholfen, um nur einige zu nennen.',
+    pubSolutionsParagraph_3:'Darüber hinaus werden wir in den nächsten Jahren ein breites Ökosystem an Technologiepartnern aufbauen, um unseren Kunden noch mehr Mehrwert zu bieten. AfriBuilDigit arbeitet mit allen großen Cloud-Hyperscalern wie AWS, GCP und Microsoft sowie mit namhaften Technologieunternehmen wie Snowflake, Automation Anywhere, UIPath, Nordic Semiconductor und anderen zusammen.',
     // Neue Dienstleistungen
     softwareEngineering: 'Software-Engineering',
     dataAnalyticsServices: 'Datenanalyse',

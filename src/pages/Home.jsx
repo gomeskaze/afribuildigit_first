@@ -250,7 +250,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Section Solutions IT */}
+      {/* Section solutions pub home */}
       <section className="solutions-section section">
         <div className="container">
           <div className="solutions-content">

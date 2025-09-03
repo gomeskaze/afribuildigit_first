@@ -269,6 +269,25 @@ const Services = () => {
         </section>
       )}
 
+      {/* Section solutions pub services */}
+      <section className="solutions-pub-services section">
+        <div className="container">
+          <div className="solutions-content">
+            <div className="solutions-image">
+              <img src="/images/services-pub.jpg" alt="Équipe en collaboration" />
+            </div>
+            <div className="solutions-text">
+              <h2 className="solutions-title">{t('pubSolutionsTitle')}</h2>
+              <div className="solutions-description">
+                <p>{t('pubSolutionsParagraph_1')}</p>
+                <p>{t('pubSolutionsParagraph_2')}</p>
+                <p>{t('pubSolutionsParagraph_3')}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Section CTA */}
       <section className="section cta-section-dark" style={{ backgroundImage: "url('/images/IT-Infrastructure.png')" }}>
         <div className="container">

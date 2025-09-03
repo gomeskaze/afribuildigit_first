@@ -471,7 +471,7 @@
   }
 }
 
-/* Section Solutions IT */
+/* Section solutions pub IT */
 .solutions-section {
   background: var(--background-light);
   padding: 6rem 0;
@@ -504,6 +504,7 @@
 
 .solutions-text {
   padding-left: 2rem;
+  text-align: left;
 }
 
 .solutions-subtitle {

@@ -257,6 +257,59 @@
   transform: translateY(-2px);
 }
 
+/* Section Solutions Pub Services */
+.solutions-pub-services {
+  background: var(--background-light);
+  padding: 4rem 0;
+}
+
+.solutions-pub-services .solutions-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.solutions-pub-services .solutions-image {
+  text-align: center;
+}
+
+.solutions-pub-services .solutions-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.solutions-pub-services .solutions-text {
+  text-align: left;
+  font-family: Arial, sans-serif;
+}
+
+.solutions-pub-services .solutions-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 2rem;
+  font-family: Arial, sans-serif;
+  line-height: 1.2;
+}
+
+.solutions-pub-services .solutions-description {
+  font-family: Arial, sans-serif;
+}
+
+.solutions-pub-services .solutions-description p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--text-light);
+  margin-bottom: 1.5rem;
+  text-align: left;
+  font-family: Arial, sans-serif;
+}
+
 /* Animations */
 @keyframes fadeInUp {
   from {
@@ -315,6 +368,24 @@
   .service-detail-icon svg {
     width: 48px;
     height: 48px;
+  }
+  
+  .solutions-pub-services .solutions-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+  }
+  
+  .solutions-pub-services .solutions-text {
+    text-align: center;
+  }
+  
+  .solutions-pub-services .solutions-title {
+    font-size: 2rem;
+  }
+  
+  .solutions-pub-services .solutions-description p {
+    text-align: center;
   }
 }
 
