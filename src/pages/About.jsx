@@ -6,6 +6,7 @@ import './About.css'
 import { Linkedin, Twitter } from "lucide-react"
 import { SiXing } from "react-icons/si"
 import { DollarSign, HeartPulse, Factory, Sprout, Bus, ShoppingCart, Lightbulb, GraduationCap,Building2,Car } from "lucide-react";   // Agritech
+import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
 
 const About = () => {
   const { t } = useLanguage()
@@ -123,6 +124,24 @@ const About = () => {
     { name: t('construction'), icon: <Building2 size={34} color="#6f67d6" /> },
     { name: t('automation'), icon: <Car size={34} color="#6f67d6" /> },
   ];
+
+  const locations = [
+    { name: "Cameroon", lat: 3.848, lng: 11.5021 },
+    { name: "Nigeria", lat: 9.082, lng: 8.6753 },
+    { name: "Kenya", lat: -1.2921, lng: 36.8219 },
+    { name: "South Africa", lat: -30.5595, lng: 22.9375 },
+    { name: "Egypt", lat: 26.8206, lng: 30.8025 },
+  ];
+  
+  const containerStyle = {
+    width: "100%",
+    height: "500px",
+  };
+  
+  const center = {
+    lat: 7.3697, // Central Africa
+    lng: 12.3547,
+  };
 
   return (
     <div className="about">
@@ -337,6 +356,27 @@ const About = () => {
               </Link>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section>
+        {/* 🌍 Map Section */}
+        <div className="map-container rounded-xl shadow-lg overflow-hidden">
+          <LoadScript googleMapsApiKey="YOUR_API_KEY_HERE">
+            <GoogleMap
+              mapContainerStyle={containerStyle}
+              center={center}
+              zoom={3}
+            >
+              {locations.map((location, index) => (
+                <Marker
+                  key={index}
+                  position={{ lat: location.lat, lng: location.lng }}
+                  title={location.name}
+                />
+              ))}
+            </GoogleMap>
+          </LoadScript>
         </div>
       </section>
     </div>
