@@ -242,6 +242,7 @@ const translations = {
     innovationDesc: 'Nous restons à la pointe des dernières technologies pour offrir des solutions innovantes. L\'innovation et la croissance sont impossibles sans communication ouverte, honnêteté et confiance. Nous sommes toujours prêts à partager l\'information, ouverts aux commentaires et disposons de canaux de communication clairs. Cela nous permet de prendre des décisions éclairées et de les assumer.',
     flexibilityDesc:'Chez Afribuildigit, nous souhaitons que chaque personne se sente autonome et libre de prendre des initiatives. C\'est pourquoi nous créons un environnement où il est acceptable de faire des erreurs, d\'en tirer des leçons, de s\'améliorer et de progresser. Nous sommes de fervents défenseurs des méthodologies Agile et nous nous efforçons de les appliquer à tous nos processus et projets.',
     empathyDesc:'Nous sommes convaincus que l\'empathie est essentielle à la réussite de notre entreprise, de nos clients et de chaque employé d\'Afribuildigit. Nous nous soucions de notre travail et de son impact. Nous nous soucions de nos clients et de nos collaborateurs. Les membres d\'Afribuildigit sont curieux et toujours prêts à aborder la situation sous un angle différent.',
+    // section equipes
     ourTeam: 'Notre Équipe',
     teamSubtitle: 'Rencontrez les experts qui font d\'AfriBuilDigit Group votre partenaire de confiance',
     ceoFounder: 'PDG & Co-fondateur',
@@ -281,7 +282,8 @@ const translations = {
     send: 'Envoyer',
     contactInfo: 'Informations de contact',
     contactInfoDesc: 'N\'hésitez pas à nous contacter pour toute question. Nous serons ravis de vous accompagner et de vous conseiller personnellement. Nous prendrons le temps d\'écouter vos besoins et de vous proposer, à vous et à votre entreprise, des solutions sur mesure qui vous mèneront au succès. Veuillez utiliser notre formulaire pour nous contacter. Nous vous répondrons dans les plus brefs délais !',
-    
+    // section clients
+    ourclients:'Les leaders de l\'industrie qui s\'appuient sur notre expertise en ingénierie',
 //-------------------------------------------------------------------------------------------------------------------------
 // ++++++++++++++++++++++++++++++++++            Industrie           +++++++++++++++++++++++++++++++++++++++++++++++++++++
 //-------------------------------------------------------------------------------------------------------------------------
@@ -434,8 +436,9 @@ const translations = {
     satisfiedClients: 'Satisfied Clients',
     yearsExperience: 'Years of Experience',
     successRate: 'Success Rate',
-    
-    // Services
+    //-----------------------------------------------------------------------------------------------------------------------
+    //+++++++++++++++++++++++++++++++++++++++++++          Services         ++++++++++++++++++++++++++++++++++++++++++++++++
+    //---------------------------------------------------------------------------------------------------------------------
     softwareDevelopment: 'Software Engineering',
     digitale: 'Digitalisation',
     consulting: 'AI Consulting and Implementation',
@@ -558,7 +561,6 @@ const translations = {
     financialTransformation: 'Financial Transformation',
     digitalControl: 'Digital Control',
   
-    
     // Service features
     predictionModels: 'Advanced prediction models',
     sentimentAnalysis: 'Sentiment analysis',
@@ -662,7 +664,8 @@ const translations = {
     send: 'Send',
     contactInfo: 'Contact Information',
     contactInfoDesc: 'Please contact us for any questions. We will be happy to accompany you and advise you personally. We will take the time to listen to your needs and offer you, to you and your company, tailored solutions that will lead you to success. Please use our form to contact us. We will respond to you in the shortest possible time!',
-    
+    // section clients
+    ourclients:'Industry leaders that rely on our engineering expertise',
 //-------------------------------------------------------------------------------------------------------------------------
 // ++++++++++++++++++++++++++++++++++            Industry           +++++++++++++++++++++++++++++++++++++++++++++++++++++
 //-------------------------------------------------------------------------------------------------------------------------
@@ -1041,10 +1044,12 @@ const translations = {
     send: 'Senden',
     contactInfo: 'Kontaktinformationen',
     contactInfoDesc: 'Bitte kontaktieren Sie uns für Fragen. Wir freuen uns, Ihnen persönlich zu helfen und zu beraten. Wir nehmen uns die Zeit, Ihre Bedürfnisse zu hören und Ihnen, Ihnen und Ihrer Firma, angepasste Lösungen anzubieten, die Sie zum Erfolg führen. Bitte verwenden Sie unsere Formulare, um uns zu kontaktieren. Wir werden Ihnen in den kürzesten Zeiten antworten!',
-    
+    // section clients
+    ourclients:'Branchenführer, die auf unsere Ingenieurskompetenz vertrauen',
+
     // --------------------------------------------------------------------------------------------------------------------
     // ++++++++++++++++++++++++++++++             Industries         ++++++++++++++++++++++++++++++++++++++++++++++++++++
-
+    //-------------------------------------------------------------------------------------------------------------------
     industriesTitle: 'Unsere Branchen',
     industriesSubtitle: 'Wir bedienen verschiedene Geschäftsbereiche mit maßgeschneiderten Lösungen',
     healthcare: 'Gesundheitswesen',
@@ -1105,7 +1110,7 @@ const translations = {
 
     // ------------------------------------------------------------------------------------------------------------------------
     //++++++++++++++++++++++++++++++++++++++++++++++++         Career       +++++++++++++++++++++++++++++++++++++++++++++++++
-
+  	//--------------------------------------------------------------------------------------------------------------------------
     careerTitle: 'Karriere',
     joinUs: 'Werden Sie Teil unseres Teams',
     openPositions: 'Offene Stellen',

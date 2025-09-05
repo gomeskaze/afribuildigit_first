@@ -89,6 +89,52 @@ const Industries = () => {
     }
 
   ]
+  const services = [
+    {
+      title: 'Fintech Software Development Services',
+      bgImage: '/images/automotive-bg.png',
+      tags: [t('constructionApp'), t('constructionLearning'), t('constructionSolutions')],
+      description:t('automotiveDesc')
+    },
+    {
+      title: 'Insurance Software Development Services',
+      bgImage: '/images/insurance.jpg',
+      tags: [
+        'Integrated Risk Management Solutions',
+        'Customer Lifecycle Management',
+        'Document Processing',
+        'Agency Management'
+      ],
+      description:
+        'N-iX can guide insurers through the entire digital transformation and modernization process and assist with improvements to create customer-oriented software.',
+    },
+    {
+      title: 'Insurtech Software Development Services',
+      bgImage: '/images/insurtech.jpg',
+      tags: [
+        'Insurance Software Development',
+        'Application Design',
+        'Functional & Data Integration',
+        'Document Management',
+        'Fraud Prevention'
+      ],
+      description:
+        'We help insurance and InsurTech companies go digital and succeed in their omnichannel initiatives...',
+    },
+    {
+      title: 'Manufacturing',
+      bgImage: '/images/manufacturing.jpg',
+      tags: [
+        'Product Design and Development',
+        'Production Digitalization',
+        'Sustainable Manufacturing',
+        'Supply Chain Management',
+        'Workforce Management'
+      ],
+      description:
+        'From product conception to delivery, our software helps manufacturers streamline operations, improve product quality, and reduce downtime...',
+    }
+  ];
 
   return (
     <div className="industries">
@@ -116,7 +162,7 @@ const Industries = () => {
             {industries.map((industry, index) => (
               <a key={index} href={industry.link} className="industry-link">
                 <div className="card industry-card">
-                  <div className="container" style={{ backgroundImage: `url(${industry.image})` }}>
+                  <div className="service-card-image" style={{ backgroundImage: `url(${industry.image})` }}>
                     <div className="industry-icon">
                       <industry.icon size={48} />
                     </div>
@@ -136,6 +182,32 @@ const Industries = () => {
           </div>
         </div>
       </section>
+
+      <section className="services-section">
+      <div className="services-grid">
+        {services.map((service, index) => (
+          <div key={index} className="service-card">
+            <div
+              className="service-card-image"
+              style={{ backgroundImage: `url(${service.bgImage})` }}
+            >
+              <div className="service-card-title">{service.title}</div>
+              <div className="service-tags">
+                {service.tags.map((tag, i) => (
+                  <span key={i}>/ {tag} </span>
+                ))}
+              </div>
+            </div>
+            <div className="service-card-content">
+              <p>{service.description}</p>
+              <a href="#" className="view-more">
+                View More <span>→</span>
+              </a>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
 
       {/* Section CTA */}
       <section className="section cta-section-dark" style={{ backgroundImage: "url('/images/IT-Infrastructure.png')" }}>

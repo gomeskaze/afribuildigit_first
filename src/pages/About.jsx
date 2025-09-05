@@ -1,11 +1,11 @@
 import React from 'react'
 import { useLanguage } from '../contexts/LanguageContext'
 import { Link } from 'react-router-dom'
-import { Users, Target, Award, Globe, Heart, Zap, ArrowRight, Italic, Shuffle, Sparkles  } from 'lucide-react'
+import { Users, Target, Award, Globe, Heart, Zap, ArrowRight, Italic, Shuffle, Sparkles } from 'lucide-react'
 import './About.css'
 import { Linkedin, Twitter } from "lucide-react"
 import { SiXing } from "react-icons/si"
-import { DollarSign, HeartPulse, Factory, Sprout, Bus, ShoppingCart, Lightbulb, GraduationCap,Building2,Car } from "lucide-react";   // Agritech
+import { DollarSign, HeartPulse, Factory, Sprout, Bus, ShoppingCart, Lightbulb, GraduationCap, Building2, Car } from "lucide-react";   // Agritech
 import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
 
 const About = () => {
@@ -125,6 +125,23 @@ const About = () => {
     { name: t('automation'), icon: <Car size={34} color="#6f67d6" /> },
   ];
 
+  const logos = [
+    { src: "/partners/totalenergies.png", alt: "Client 4" },
+    { src: "/partners/client1.png", alt: "Client 1" },
+    { src: "/partners/client2.jpg", alt: "Client 2" },
+    { src: "/partners/client3.jpg", alt: "Client 3" },
+    { src: "/partners/client4.png", alt: "Client 4" },
+    { src: "/partners/client5.png", alt: "Client 4" },
+    { src: "/partners/client6.png", alt: "Client 4" },
+    { src: "/partners/client7.png", alt: "Client 4" },
+    { src: "/partners/client8.png", alt: "Client 4" },
+    { src: "/partners/laahtech.png", alt: "Client 4" },
+    { src: "/partners/maviance.png", alt: "Client 4" },
+    { src: "/partners/sendkolo.png", alt: "Client 4" },
+    
+    // Ajoute autant que nécessaire
+  ];
+
   const locations = [
     { name: "Cameroon", lat: 3.848, lng: 11.5021 },
     { name: "Nigeria", lat: 9.082, lng: 8.6753 },
@@ -132,12 +149,12 @@ const About = () => {
     { name: "South Africa", lat: -30.5595, lng: 22.9375 },
     { name: "Egypt", lat: 26.8206, lng: 30.8025 },
   ];
-  
+
   const containerStyle = {
     width: "100%",
     height: "500px",
   };
-  
+
   const center = {
     lat: 7.3697, // Central Africa
     lng: 12.3547,
@@ -193,6 +210,24 @@ const About = () => {
             <div className="solutions-image">
               <img src="/images/history.png" alt="Équipe en collaboration" />
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* section clients*/}
+      <section className="clients-section">
+        <div className="clients-container">
+          <h2 className="clients-title">{t('ourclients')}</h2>
+          <div className="clients-logos">
+            {logos.map((logo, index) => (
+              <div key={index} className="logo-wrapper">
+                <img
+                  src={logo.src}
+                  alt={logo.alt}
+                  className="client-logo"
+                />
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -294,7 +329,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      
+
 
       {/* Section Mission */}
       <section className="mission-section section">
@@ -325,12 +360,12 @@ const About = () => {
       </section>
 
       {/* Section Industries */}
-      <section className="industries-section section">
-      <div className="section-header">
-            <h2>{t('industriesTitle')}</h2>
-            <p className='industries-title'>{t('industriesSubtitle')}</p>
-          </div>
-        <div className="industries-grid grid grid-3">
+      <section className="industry-section section">
+        <div className="section-header">
+          <h2>{t('industriesTitle')}</h2>
+          <p className='industry-title'>{t('industriesSubtitle')}</p>
+        </div>
+        <div className="industry-grid">
           {industries.map((item, idx) => (
             <div key={idx} className={`industry-card ${item.name === t('energy') ? "energy-card" : ""}`}>
               <div className="industry-icon">{item.icon}</div>
