@@ -11,8 +11,9 @@ const translations = {
     career: 'Carrière',
     contact: 'Contact',
     companyOverview: 'Présentation de l\'entreprise',
-    //------------------------------------------------------------------------------------------------------
-    // Page d'accueil
+//-------------------------------------------------------------------------------------------------------------------------
+// ++++++++++++++++++++++++++++++++++          Home page           +++++++++++++++++++++++++++++++++++++++++++++++++++++
+//-------------------------------------------------------------------------------------------------------------------------
     heroTitle: 'AfriBuilDigit Group',
     heroSubtitle1: 'Une vision stimulante.',
     heroSubtitle2: 'Une valeur ajoutée.',
@@ -50,7 +51,9 @@ const translations = {
     yearsExperience: 'Années d\'Expérience',
     successRate: 'Taux de Réussite',
     
-    // Services
+//-------------------------------------------------------------------------------------------------------------------------
+// ++++++++++++++++++++++++++++++++++            Services           +++++++++++++++++++++++++++++++++++++++++++++++++++++
+//-------------------------------------------------------------------------------------------------------------------------
     softwareDevelopment: 'Software Engineering',
     digitale: 'Digitalisation',
     consulting: 'KI Consulting et Implementation',
@@ -210,18 +213,22 @@ const translations = {
     solutionsFirstParagraph: 'En tant que spécialiste hautement certifié des services informatiques, nous disposons d\'un large portefeuille de services : des services cloud les plus modernes aux infrastructures informatiques sur mesure et services gérés, en passant par les sujets de sécurité et autres services de support, tout est inclus pour une informatique d\'entreprise bien positionnée afin de répondre aux exigences croissantes de la transformation numérique.',
     solutionsSecondParagraph: 'Avec nos solutions logicielles intelligentes, nous maîtrisons les défis individuels et optimisons les processus métier complexes en étroite collaboration avec nos clients. Nous répondons précisément aux besoins spécifiques de l\'industrie de nos clients et trouvons soit la bonne solution dans notre portefeuille logiciel étendu, soit nous développons le logiciel approprié sur mesure pour votre entreprise.',
     
-    //------------------------------------------------------------------------------------------------------
-    // À propos
+//-------------------------------------------------------------------------------------------------------------------------
+// ++++++++++++++++++++++++++++++++++            A propos           +++++++++++++++++++++++++++++++++++++++++++++++++++++
+//-------------------------------------------------------------------------------------------------------------------------
     aboutTitle: 'À propos de nous',
-    aboutDescription: 'Nous sommes une jeune et dynamique entreprise de services informatiques basée à Yaoundé, au Cameroun.',
+    aboutDescription: 'Nous sommes une jeune et dynamique entreprise de services informatiques basée dans certains pays africains.',
     experience: 'Expérience',
     expertise: 'Expertise',
     innovation: 'Innovation',
+    flexibility:'flexibilité',
+    empathy: 'Empathie',
     ourHistory: 'Notre Histoire',
-    historySubtitle: 'Découvrez le parcours qui nous a menés jusqu\'ici',
+    ourVision: 'Notre Vision',
+    historySubtitle: 'Là où il n\'y a pas d\'espoir, nous devons l\'inventer',
     visionFromExperience: 'Une vision née de l\'expérience',
     visionDescription: 'AfriBuilDigit Group est née de la vision de créer une entreprise de services informatiques qui allie expertise technique et compréhension approfondie des processus métier. Nos fondateurs, après avoir travaillé dans de grandes entreprises internationales, ont décidé de mettre leur expertise au service des entreprises africaines.',
-    basedInYaounde: 'Basée à Yaoundé, au Cameroun, notre entreprise s\'est rapidement imposée comme un partenaire de confiance pour les organisations cherchant à transformer leurs données en avantages concurrentiels.',
+    basedInYaounde: 'Basée dans certains pays africains, notre entreprise s\'est rapidement imposée comme un partenaire de confiance pour les organisations cherchant à transformer leurs données en avantages concurrentiels. Chez Afribuildigit Group, nous aidons les entreprises et les nations africaines à se développer grâce à la numérisation, au transfert de technologie et à l\'innovation. Notre mission est de promouvoir la souveraineté, de créer des emplois et d\'accélérer le développement en exploitant le potentiel des nouvelles technologies et de l\'IA pour une Afrique plus forte et autonome.',
     foundingYear: 'Année de création',
     founders: 'Fondateurs',
     ourValues: 'Nos Valeurs',
@@ -232,7 +239,9 @@ const translations = {
     passionDesc: 'Nous sommes passionnés par la technologie et l\'innovation, et nous transmettons cette passion à nos clients.',
     collaboration: 'Collaboration',
     collaborationDesc: 'Nous croyons en la puissance de la collaboration et travaillons en étroite relation avec nos clients.',
-    innovationDesc: 'Nous restons à la pointe des dernières technologies pour offrir des solutions innovantes.',
+    innovationDesc: 'Nous restons à la pointe des dernières technologies pour offrir des solutions innovantes. L\'innovation et la croissance sont impossibles sans communication ouverte, honnêteté et confiance. Nous sommes toujours prêts à partager l\'information, ouverts aux commentaires et disposons de canaux de communication clairs. Cela nous permet de prendre des décisions éclairées et de les assumer.',
+    flexibilityDesc:'Chez Afribuildigit, nous souhaitons que chaque personne se sente autonome et libre de prendre des initiatives. C\'est pourquoi nous créons un environnement où il est acceptable de faire des erreurs, d\'en tirer des leçons, de s\'améliorer et de progresser. Nous sommes de fervents défenseurs des méthodologies Agile et nous nous efforçons de les appliquer à tous nos processus et projets.',
+    empathyDesc:'Nous sommes convaincus que l\'empathie est essentielle à la réussite de notre entreprise, de nos clients et de chaque employé d\'Afribuildigit. Nous nous soucions de notre travail et de son impact. Nous nous soucions de nos clients et de nos collaborateurs. Les membres d\'Afribuildigit sont curieux et toujours prêts à aborder la situation sous un angle différent.',
     ourTeam: 'Notre Équipe',
     teamSubtitle: 'Rencontrez les experts qui font d\'AfriBuilDigit Group votre partenaire de confiance',
     ceoFounder: 'PDG & Co-fondateur',
@@ -249,6 +258,16 @@ const translations = {
     africanContext: 'Solutions adaptées au contexte africain',
     technicalExcellenceRec: 'Excellence technique reconnue',
     measurableResults: 'Résultats mesurables et durables',
+    // section histoire
+    ourStoryTitle: 'Le bien que l\'on fait parfume l\'âme',
+    ourStoryParagraph1: 'Afribuildigit Group est né d\'une vision - une vision d\'autonomiser l\'Afrique grâce à la digitalisation, l\'innovation et la technologie.',
+    ourStoryParagraph2: 'L\'idée nous est venue lors d\'une visite dans notre pays d\'origine, le Cameroun. Dans des conversations avec l\'une des principales entreprises du pays, nous avons rapidement réalisé le potentiel inexploité : de nombreux processus n\'étaient pas encore numérisés et l\'adoption de la technologie était en retard sur les normes mondiales. À ce moment-là, nous avons vu à la fois le défi et l\'opportunité - aider à transformer les entreprises et institutions africaines grâce à des solutions numériques qui pourraient accélérer la croissance, créer des emplois et renforcer la souveraineté.',
+    ourStoryMissionIntro: 'Afribuildigit Group est plus qu\'une entreprise. C\'est aussi appelé à:',
+    missionPoint1: 'Favoriser la souveraineté africaine en veillant à ce que les entreprises, les gouvernements et les communautés locales aient le contrôle de leur avenir numérique.',
+    missionPoint2: 'Promouvoir le transfert et l\'adaptation technologiques pour que l\'Afrique puisse adopter les innovations mondiales tout en les adaptant aux besoins locaux.',
+    missionPoint3: 'Réduire le chômage en créant des opportunités dans l\'économie numérique et en dotant les personnes de compétences pour les emplois de demain.',
+    missionPoint4: 'Accélérer le développement en tirant parti des avantages des nouvelles technologies et de l\'intelligence artificielle pour un progrès durable.',
+    ourStoryConclusion: 'Notre objectif est de construire un avenir meilleur pour l\'Afrique - un avenir où la digitalisation n\'est pas seulement un outil mais un moteur d\'indépendance, d\'innovation et de prospérité. Avec chaque projet que nous livrons, nous nous rapprochons de cet avenir : un avenir construit par des Africains, pour l\'Afrique, avec Afribuildigit au cœur de celui-ci.',
     
     // Footer
     followUs: 'Suivez-nous',
@@ -263,7 +282,9 @@ const translations = {
     contactInfo: 'Informations de contact',
     contactInfoDesc: 'N\'hésitez pas à nous contacter pour toute question. Nous serons ravis de vous accompagner et de vous conseiller personnellement. Nous prendrons le temps d\'écouter vos besoins et de vous proposer, à vous et à votre entreprise, des solutions sur mesure qui vous mèneront au succès. Veuillez utiliser notre formulaire pour nous contacter. Nous vous répondrons dans les plus brefs délais !',
     
-    // Industries
+//-------------------------------------------------------------------------------------------------------------------------
+// ++++++++++++++++++++++++++++++++++            Industrie           +++++++++++++++++++++++++++++++++++++++++++++++++++++
+//-------------------------------------------------------------------------------------------------------------------------
     industriesTitle: 'Nos Industries',
     industriesSubtitle: 'Nous servons divers secteurs d\'activité avec des solutions adaptées',
     healthcare: 'Santé',
@@ -323,7 +344,9 @@ const translations = {
     automotiveLearning: 'Système d\'infodivertissement conforme aux normes genivi',
     automotiveSolutions: 'Algorithmes de ML automatique qui préviennent les pannes',
     
-    // Carrière
+//-------------------------------------------------------------------------------------------------------------------------
+// ++++++++++++++++++++++++++++++++++            carrière           +++++++++++++++++++++++++++++++++++++++++++++++++++++
+//-------------------------------------------------------------------------------------------------------------------------
     careerTitle: 'Carrière',
     joinUs: 'Rejoignez-nous',
     openPositions: 'Postes ouverts',
@@ -360,8 +383,9 @@ const translations = {
     // Langues
     language: 'Langue'
   },
-  ////////////////////////////////////////////////////////////////////////////////////
-                          /////########### langue anglaise ###########
+        ////////////////////////////////////////////////////////////////////////////////////
+                                /////########### langue anglaise ###########
+      ////////////////////////////////////////////////////////////////////////////////////
   en: {
     // Navigation
     home: 'Home',
@@ -371,7 +395,9 @@ const translations = {
     career: 'Career',
     contact: 'Contact',
     
-    // Home page
+//-------------------------------------------------------------------------------------------------------------------------
+// ++++++++++++++++++++++++++++++++++            Home page           +++++++++++++++++++++++++++++++++++++++++++++++++++++
+//-------------------------------------------------------------------------------------------------------------------------
     heroTitle: 'AfriBuilDigit Group',
     heroSubtitle1: 'Empowering vision.',
     heroSubtitle2: 'Delivering value.',
@@ -423,7 +449,7 @@ const translations = {
     contactForQuote: 'Contact us to discuss your needs and get a personalized quote',
     pubSolutionsTitle:'Driven by passion for technology.',
     pubSolutionsParagraph_1: 'AfriBuilDigit has been a trusted software development partner for industry leaders. We have accumulated a wide range of tech expertise ranging from Cloud Solutions and Data Analytics to AI and IoT.',
-    pubSolutionsParagraph_1: 'Over the times, we are relentlessly working on our tech proficiency, investing into the growth of our talents, their training and certification, established and grew our Technology Office as well as multiple programs targeted at widening our tech horizons. The diversity of projects we complete together with our partners has also helped us gain unmatched experience not only in tech but also multiple business domains, including finance, manufacturing, supply chain, telecom, retail, healthcare, to name but a few.',
+    pubSolutionsParagraph_2: 'Over the times, we are relentlessly working on our tech proficiency, investing into the growth of our talents, their training and certification, established and grew our Technology Office as well as multiple programs targeted at widening our tech horizons. The diversity of projects we complete together with our partners has also helped us gain unmatched experience not only in tech but also multiple business domains, including finance, manufacturing, supply chain, telecom, retail, healthcare, to name but a few.',
     pubSolutionsParagraph_3:'Moreover, in the last next years, we\'ll build a wide tech partner ecosystem to bring even more value to our clients. AfriBuilDigit partners with all major cloud hyperscalers such as AWS, GCP, and Microsoft, as well as prominent tech companies including Snowflake, Automation Anywhere, UIPath, Nordic Semiconductor, and more.',
     
     // New services
@@ -568,18 +594,22 @@ const translations = {
     advancedITForBusinessSuccess: 'Advanced IT for Your Business Success',
     solutionsFirstParagraph: 'As a highly certified specialist in IT services, we have a wide portfolio of services: from the most modern cloud services to custom IT infrastructure and managed services, including security and other support topics, all is included for a well-positioned enterprise IT to meet the increasing requirements of digital transformation.',
     solutionsSecondParagraph: 'With our intelligent software solutions, we master individual challenges and optimize complex business processes in close collaboration with our clients. We precisely meet the specific needs of our clients\' industry and find either the right solution in our extended software portfolio, or we develop the appropriate custom software for your company.',
-    
-    // About
+//-------------------------------------------------------------------------------------------------------------------------
+// ++++++++++++++++++++++++++++++++++            About           +++++++++++++++++++++++++++++++++++++++++++++++++++++
+//-------------------------------------------------------------------------------------------------------------------------
     aboutTitle: 'About Us',
-    aboutDescription: 'We are a young and dynamic IT services company based in Yaoundé, Cameroon.',
+    aboutDescription: 'We are a young and dynamic IT services company based in some African countries.',
     experience: 'Experience',
     expertise: 'Expertise',
     innovation: 'Innovation',
+    flexibility:'flexibility',
+    empathy:'Empathy',
     ourHistory: 'Our History',
-    historySubtitle: 'Discover the journey that led us here',
+    ourVision: 'Our Vision',
+    historySubtitle: 'Where there is no hope, we must invent it',
     visionFromExperience: 'A vision born from experience',
     visionDescription: 'AfriBuilDigit Group was born from the vision to create an IT services company that combines technical expertise and deep understanding of business processes. Our founders, after working in large international companies, decided to put their expertise to the service of African businesses.',
-    basedInYaounde: 'Based in Yaoundé, Cameroon, our company quickly established itself as a trusted partner for organizations seeking to transform their data into competitive advantages.',
+    basedInYaounde: 'Based in some African countries, our company quickly established itself as a trusted partner for organizations seeking to transform their data into competitive advantages. At Afribuildigit Group, we empower African businesses and nations through digitalization, technology transfer, and innovation. Our mission is to foster sovereignty, create jobs, and accelerate development by harnessing the power of new technologies and AI for a stronger, self-reliant Africa.',
     foundingYear: 'Creation year',
     founders: 'Founders',
     ourValues: 'Our Values',
@@ -590,7 +620,9 @@ const translations = {
     passionDesc: 'We are passionate about technology and innovation, and we pass this passion on to our clients.',
     collaboration: 'Collaboration',
     collaborationDesc: 'We believe in the power of collaboration and work closely with our clients.',
-    innovationDesc: 'We remain at the forefront of the latest technologies to offer innovative solutions.',
+    innovationDesc: 'We remain at the forefront of the latest technologies to offer innovative solutions.  Innovation and growth are impossible without open communication, honesty, and trust. We are always ready to share information, we are open to feedback, and have clear communication channels. This allows us to make informed decisions and take ownership of them.',
+    flexibilityDesc:'We want every person at Afribuildigit to feel empowered and free to take the initiative. So we create an environment where it’s ok to make mistakes, learn from them, improve, and grow. We are ardent advocates of Agile methodologies, and try to use Agile across all our processes and projects.',
+    empathyDesc: 'We believe that empathy is essential for the success of our company, our clients, and every single person at Afribuildigit. We care about the work we do and its impact. We care about our clients and our teammates. Afribuildigiters are curious and always willing to look at the situation from a different perspective. ',
     ourTeam: 'Our Team',
     teamSubtitle: 'Meet the experts who make AfriBuilDigit Group your trusted partner',
     ceoFounder: 'CEO & Co-founder',
@@ -607,7 +639,17 @@ const translations = {
     africanContext: 'Solutions adapted to the African context',
     technicalExcellenceRec: 'Recognized technical excellence',
     measurableResults: 'Measurable and durable results',
-    
+    // section Story
+    ourStoryTitle: 'The good we do perfumes the soul',
+    ourStoryParagraph1: 'Afribuildigit Group was born from a vision — a vision to empower Africa through digitalization, innovation, and technology.',
+    ourStoryParagraph2: 'The idea first came to us during a visit to our home country, Cameroon. In conversations with one of the country’s leading companies, we quickly realized how much potential was still untapped: many processes were not yet digitalized, and technology adoption lagged behind global standards. At that moment, we saw both the challenge and the opportunity — to help transform African businesses and institutions through digital solutions that could accelerate growth, create jobs, and strengthen sovereignty.',
+    ourStoryMissionIntro: 'Afribuildigit Group is more than a company. It is also called to:',
+    missionPoint1: 'Fostering African sovereignty by ensuring that local businesses, governments, and communities have control over their digital futures.',
+    missionPoint2: 'Driving technology transfer and adaptation so that Africa can adopt global innovations while tailoring them to local needs.',
+    missionPoint3: 'Reducing unemployment by creating opportunities in the digital economy and equipping people with skills for the jobs of tomorrow.',
+    missionPoint4: 'Accelerating development by harnessing the benefits of new technologies and artificial intelligence for sustainable progress.',
+    ourStoryConclusion: 'Our goal is to build a better tomorrow for Africa — one where digitalization is not just a tool but a driver of independence, innovation, and prosperity. With every project we deliver, we move closer to that future: a future built by Africans, for Africa, with Afribuildigit at the heart of it.',
+  
     // Footer
     followUs: 'Follow Us',
     allRightsReserved: 'All rights reserved',
@@ -621,7 +663,9 @@ const translations = {
     contactInfo: 'Contact Information',
     contactInfoDesc: 'Please contact us for any questions. We will be happy to accompany you and advise you personally. We will take the time to listen to your needs and offer you, to you and your company, tailored solutions that will lead you to success. Please use our form to contact us. We will respond to you in the shortest possible time!',
     
-    // Industries
+//-------------------------------------------------------------------------------------------------------------------------
+// ++++++++++++++++++++++++++++++++++            Industry           +++++++++++++++++++++++++++++++++++++++++++++++++++++
+//-------------------------------------------------------------------------------------------------------------------------
     industriesTitle: 'Our Industries',
     industriesSubtitle: 'We serve various business sectors with tailored solutions',
     healthcare: 'Healthcare',
@@ -680,8 +724,9 @@ const translations = {
     automotiveLearning: 'Infotainment system compliant with genivi standards',
     automotiveSolutions: 'Machine learning algorithms that prevent failures',
     
-    
-    // Career
+//-------------------------------------------------------------------------------------------------------------------------
+// ++++++++++++++++++++++++++++++++++            career           +++++++++++++++++++++++++++++++++++++++++++++++++++++
+//-------------------------------------------------------------------------------------------------------------------------
     careerTitle: 'Career',
     joinUs: 'Join Us',
     openPositions: 'Open Positions',
@@ -718,8 +763,9 @@ const translations = {
     // Languages
     language: 'Language'
   },
-  ////////////////////////////////////////////////////////////////////////////
+  /////////////////////////////////////////////////////////////////////////////////////
   /////                          ########### langue allemand ###########
+  //////////////////////////////////////////////////////////////////////////////////////
     de: {
     // Navigation
     home: 'Startseite',
@@ -728,8 +774,9 @@ const translations = {
     services: 'Dienstleistungen',
     career: 'Karriere',
     contact: 'Kontakt',
-    
-    // Home page
+//-------------------------------------------------------------------------------------------------------------------------
+    // ++++++++++++++++++++++++++++++++++            Home page           +++++++++++++++++++++++++++++++++++++++++++++++++++++
+    //-------------------------------------------------------------------------------------------------------------------------
     heroTitle: 'AfriBuilDigit Group',
     heroSubtitle1: 'Eine anregende Vision.',
     heroSubtitle2: 'Eine Wertschöpfung.',
@@ -766,8 +813,10 @@ const translations = {
     satisfiedClients: 'Zufriedene Kunden',
     yearsExperience: 'Jahre Erfahrung',
     successRate: 'Erfolgsquote',
-    
-    // Services
+
+    //-------------------------------------------------------------------------------------------------------------------------
+    // ++++++++++++++++++++++++++++++++++            Services           +++++++++++++++++++++++++++++++++++++++++++++++++++++
+    //-------------------------------------------------------------------------------------------------------------------------
     softwareDevelopment: 'Software Engineering',
     digitale: 'Digitalisierung',
     consulting: 'AI Consulting und Implementierung',
@@ -925,17 +974,22 @@ const translations = {
     solutionsFirstParagraph: 'Als hoch geprüfter Spezialist für IT-Dienstleistungen verfügen wir über ein umfangreiches Portfolio von Dienstleistungen: von den modernsten Cloud-Diensten bis hin zu angepassten IT-Infrastrukturen und verwalteten Dienstleistungen, einschließlich Sicherheits- und andere Support-Themen, alles ist inklusive für eine gut positionierte Unternehmens-IT, um die steigenden Anforderungen der Digitalisierung zu erfüllen.',
     solutionsSecondParagraph: 'Mit unseren intelligenten Software-Lösungen beherrschen wir individuelle Herausforderungen und optimieren komplexe Geschäftsprozesse in enger Zusammenarbeit mit unseren Kunden. Wir erfüllen präzise die spezifischen Anforderungen unserer Kunden-Branche und finden entweder die richtige Lösung in unserem erweiterten Software-Portfolio oder entwickeln die entsprechende angepasste Software für Ihr Unternehmen.',
     
-    // About
+    // -------------------------------------------------------------------------------------------------------------------------
+    //++++++++++++++++++++++++++++++++++++++++++++++++++     About  ++++++++++++++++++++++++++++++++++++++++++++++++++++
+// ---------------------------------------------------------------------------------------------------------------------------
     aboutTitle: 'Über uns',
-    aboutDescription: 'Wir sind ein junges und dynamisches IT-Dienstleistungsunternehmen mit Sitz in Yaoundé, Kamerun.',
+    aboutDescription: 'Wir sind ein junges und dynamisches IT-Dienstleistungsunternehmen mit Sitz in einigen afrikanischen Ländern.',
     experience: 'Erfahrung',
     expertise: 'Expertise',
     innovation: 'Innovation',
+    flexibility: 'flexibilität',
+    empathy: 'Empathy',
     ourHistory: 'Unsere Geschichte',
-    historySubtitle: 'Entdecken Sie den Weg, der uns hier geführt hat',
+    ourVision: 'Unsere Vision',
+    historySubtitle: 'Wo es keine Hoffnung gibt, müssen wir sie erfinden',
     visionFromExperience: 'Eine Vision, die aus Erfahrung geboren wurde',
     visionDescription: 'AfriBuilDigit Group wurde aus der Vision gegründet, eine IT-Dienstleistungsgesellschaft zu schaffen, die technische Expertise und eine tiefgreifende Verständnis von Geschäftsprozessen vereint. Unsere Gründer, nachdem sie in großen internationalen Unternehmen gearbeitet hatten, entschieden, ihre Expertise für afrikanische Unternehmen zu nutzen.',
-    basedInYaounde: 'Basierend in Yaoundé, Kamerun, hat sich unser Unternehmen schnell als zuverlässiger Partner für Unternehmen etabliert, die ihre Daten in wettbewerbsfähige Vorteile transformieren wollten.',
+    basedInYaounde: 'Sitz in einigen afrikanischen Ländern, hat sich unser Unternehmen schnell als zuverlässiger Partner für Unternehmen etabliert, die ihre Daten in wettbewerbsfähige Vorteile transformieren wollten. Bei der Afribuildigit Group stärken wir afrikanische Unternehmen und Nationen durch Digitalisierung, Technologietransfer und Innovation. Unsere Mission ist es, Souveränität zu fördern, Arbeitsplätze zu schaffen und die Entwicklung zu beschleunigen, indem wir die Kraft neuer Technologien und KI für ein stärkeres, eigenständiges Afrika nutzen.',
     foundingYear: 'Gründungsjahr',
     founders: 'Gründer',
     ourValues: 'Unsere Werte',
@@ -946,7 +1000,9 @@ const translations = {
     passionDesc: 'Wir sind begeistert von Technologie und Innovation und übertragen diese Begeisterung auf unsere Kunden.',
     collaboration: 'Zusammenarbeit',
     collaborationDesc: 'Wir glauben an die Kraft der Zusammenarbeit und arbeiten eng mit unseren Kunden zusammen.',
-    innovationDesc: 'Wir bleiben auf dem neuesten Stand der neuesten Technologien, um innovative Lösungen anzubieten.',
+    innovationDesc: 'Wir bleiben auf dem neuesten Stand der neuesten Technologien, um innovative Lösungen anzubieten. Innovation und Wachstum sind ohne offene Kommunikation, Ehrlichkeit und Vertrauen nicht möglich. Wir sind stets bereit, Informationen zu teilen, sind offen für Feedback und verfügen über klare Kommunikationskanäle. Dies ermöglicht es uns, fundierte Entscheidungen zu treffen und Verantwortung dafür zu übernehmen.',
+    flexibilityDesc:'Wir möchten, dass sich jeder Mitarbeiter bei Afribuildigit frei und in der Lage fühlt, die Initiative zu ergreifen. Deshalb schaffen wir ein Umfeld, in dem Fehler erlaubt sind, aus ihnen zu lernen, sich zu verbessern und zu wachsen. Wir sind überzeugte Verfechter agiler Methoden und versuchen, diese in allen unseren Prozessen und Projekten einzusetzen.',
+    empathyDesc:'Wir glauben, dass Empathie für den Erfolg unseres Unternehmens, unserer Kunden und jedes Einzelnen bei Afribuildigit unerlässlich ist. Wir legen Wert auf unsere Arbeit und ihre Wirkung. Wir kümmern uns um unsere Kunden und unsere Teamkollegen. Afribuildigiter sind neugierig und immer bereit, die Situation aus einer anderen Perspektive zu betrachten.',
     ourTeam: 'Unser Team',
     teamSubtitle: 'Treffen Sie die Experten, die AfriBuilDigit Group zu Ihrem zuverlässigen Partner machen',
     ceoFounder: 'CEO & Co-founder',
@@ -963,11 +1019,20 @@ const translations = {
     africanContext: 'Lösungen angepasst an den afrikanischen Kontext',
     technicalExcellenceRec: 'Anerkannter technischer Fortschritt',
     measurableResults: 'Messbare und dauerhafte Ergebnisse',
-    
+    // section histoire
+    ourStoryTitle: 'Das Gute, das wir tun, duftet nach Seele',
+    ourStoryParagraph1: 'Die Afribuildigit Group entstand aus einer Vision – der Vision, Afrika durch Digitalisierung, Innovation und Technologie zu stärken.',
+    ourStoryParagraph2: 'Die Idee kam uns während eines Besuchs in unserem Heimatland Kamerun. In Gesprächen mit einem der führenden Unternehmen des Landes wurde uns schnell klar, wie viel Potenzial noch ungenutzt war: Viele Prozesse waren noch nicht digitalisiert, und die Technologieakzeptanz hinkte dem globalen Standard hinterher. In diesem Moment erkannten wir sowohl die Herausforderung als auch die Chance – afrikanische Unternehmen und Institutionen durch digitale Lösungen zu transformieren, die Wachstum beschleunigen, Arbeitsplätze schaffen und Souveränität stärken.',
+    ourStoryMissionIntro: 'Die Afribuildigit Group ist mehr als ein Unternehmen. Sie hat es sich zur Aufgabe gemacht:',
+    missionPoint1: 'Afrikanische Souveränität zu fördern, indem sie sicherstellt, dass lokale Unternehmen, Regierungen und Gemeinden die Kontrolle über ihre digitale Zukunft haben.',
+    missionPoint2: 'Technologietransfer und -anpassung voranzutreiben, damit Afrika globale Innovationen übernehmen und gleichzeitig an lokale Bedürfnisse anpassen kann.',
+    missionPoint3: 'Arbeitslosigkeit zu senken, indem wir Chancen in der digitalen Wirtschaft schaffen und Menschen mit Fähigkeiten für die Arbeitsplätze von morgen ausstatten.',
+    missionPoint4: 'Entwicklung zu beschleunigen, indem wir die Vorteile neuer Technologien und künstlicher Intelligenz für nachhaltigen Fortschritt nutzen.',
+    ourStoryConclusion: 'Unser Ziel ist es, eine bessere Zukunft für Afrika zu gestalten – eine Zukunft, in der Digitalisierung nicht nur ein Werkzeug ist, sondern ein Motor für Unabhängigkeit, Innovation und Wohlstand. Mit jedem unserer Projekte kommen wir dieser Zukunft näher: einer Zukunft, die von Afrikanern für Afrika geschaffen wird, mit Afribuildigit im Mittelpunkt.',
+  
     // Footer
     followUs: 'Folgen Sie uns',
     allRightsReserved: 'Alle Rechte vorbehalten',
-    
     // Contact
     contactUs: 'Kontaktieren Sie uns',
     name: 'Name',
@@ -977,7 +1042,9 @@ const translations = {
     contactInfo: 'Kontaktinformationen',
     contactInfoDesc: 'Bitte kontaktieren Sie uns für Fragen. Wir freuen uns, Ihnen persönlich zu helfen und zu beraten. Wir nehmen uns die Zeit, Ihre Bedürfnisse zu hören und Ihnen, Ihnen und Ihrer Firma, angepasste Lösungen anzubieten, die Sie zum Erfolg führen. Bitte verwenden Sie unsere Formulare, um uns zu kontaktieren. Wir werden Ihnen in den kürzesten Zeiten antworten!',
     
-    // Industries
+    // --------------------------------------------------------------------------------------------------------------------
+    // ++++++++++++++++++++++++++++++             Industries         ++++++++++++++++++++++++++++++++++++++++++++++++++++
+
     industriesTitle: 'Unsere Branchen',
     industriesSubtitle: 'Wir bedienen verschiedene Geschäftsbereiche mit maßgeschneiderten Lösungen',
     healthcare: 'Gesundheitswesen',
@@ -1036,7 +1103,9 @@ const translations = {
     automotiveLearning: 'Infotainmentsystem, das den Genivi-Standards entspricht',
     automotiveSolutions: 'Maschinelle Lernalgorithmen, die Fehlern verhindern',
 
-    // Career
+    // ------------------------------------------------------------------------------------------------------------------------
+    //++++++++++++++++++++++++++++++++++++++++++++++++         Career       +++++++++++++++++++++++++++++++++++++++++++++++++
+
     careerTitle: 'Karriere',
     joinUs: 'Werden Sie Teil unseres Teams',
     openPositions: 'Offene Stellen',

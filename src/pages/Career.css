@@ -2,3 +2,23 @@
 	color: #8b5cf6;
 }
 
+.career-hero {
+	background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+	color: white;
+	text-align: center;
+  }
+  
+  .career-hero-content h1 {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+	color: white;
+  }
+  
+  .career-hero-description {
+	font-size: 1.2rem;
+	color: rgba(255, 255, 255, 0.9);
+	max-width: 800px;
+	margin: 0 auto;
+	line-height: 1.6;
+  }
+  

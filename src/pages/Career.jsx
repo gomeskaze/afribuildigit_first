@@ -41,11 +41,14 @@ const Career = () => {
 
   return (
     <div className="career">
-      <section className="hero-section">
+      {/* section hero*/}
+      <section className="career-hero section">
         <div className="container">
-          <div className="section-header">
+          <div className="career-hero-content">
             <h1>{t('careerTitle')}</h1>
-            <p>{t('joinUs')} {t('careerJoinTagline')}</p>
+              <p className = "career-hero-description">
+                {t('joinUs')} {t('careerJoinTagline')}
+              </p>
           </div>
         </div>
       </section>
