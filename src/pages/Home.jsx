@@ -15,7 +15,7 @@ import {
   Zap,
   Globe,
   Brain,
-  Cloud
+  Cloud, ShieldCheck 
 } from 'lucide-react'
 import './Home.css'
 
@@ -36,13 +36,13 @@ const Home = () => {
       color: '#8b5cf6'
     },
     {
-      icon: Database,
+      icon: BarChart3,
       title: t('dataAnalytics'),
       description: t('dataEngineeringDesc'),
       color: '#10b981'
     },
     {
-      icon: Database,
+      icon: Brain,
       title: t('consulting'),
       description: t('dataEngineeringDesc'),
       color: '#10b981'
@@ -53,7 +53,7 @@ const Home = () => {
       description: t('softwareDevelopmentDesc'),
       color: '#8b5cf6'
     }, {
-      icon: BarChart3,
+      icon: ShieldCheck ,
       title: t('security'),
       description: t('dataAnalyticsDesc'),
       color: '#f59e0b'
@@ -149,9 +149,12 @@ const Home = () => {
                     <p className="tile-desc">{service.description}</p>
                   </div>
                 </div>
-                <Link to="/services" className="tile-arrow" aria-label={t('learnMoreLink')}>
+                <a href="#" className="tile-arrow">
+                 <span><ArrowRight size={30} /></span>
+              </a>
+                {/* <Link to="/services" className="tile-arrow" aria-label={t('learnMoreLink')}>
                   <ArrowRight size={30} />
-                </Link>
+                </Link> */}
               </div>
             ))}
           </div>

@@ -36,18 +36,18 @@
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 }
 
-.industries .industry-link {
+.industries .industries-link {
   text-decoration: none;
   color: inherit;
   display: block;
   transition: transform 0.3s ease;
 }
 
-.industries .industry-link:hover {
+.industries .industries-link:hover {
   transform: translateY(-5px);
 }
 
-.industries .industry-card {
+.industries .industries-card {
   background: white;
   border-radius: 12px;
   padding: 0;
@@ -57,11 +57,11 @@
   overflow: hidden;
 }
 
-.industries .industry-card:hover {
+.industries .industries-card:hover {
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
-.industries .industry-card .container {
+.industries .industries-card .container {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -75,7 +75,7 @@
   border-radius: 12px 12px 0 0;
 }
 
-.industries .industry-card .container::before {
+.industries .industries-card .container::before {
   content: '';
   position: absolute;
   top: 0;
@@ -87,7 +87,7 @@
   border-radius: 12px 12px 0 0;
 }
 
-.industries .industry-card .industry-icon {
+.industries .industries-card .industries-icon {
   color: white;
   margin-bottom: 1rem;
   filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.8));
@@ -95,7 +95,7 @@
   z-index: 2;
 }
 
-.industries .industry-card .container h3 {
+.industries .industries-card .container h3 {
   font-size: 1.5rem;
   margin-bottom: 0;
   color: white;
@@ -106,30 +106,30 @@
   z-index: 2;
 }
 
-.industries .industry-card .content-section {
+.industries .industries-card .content-section {
   padding: 2rem;
   background: white;
 }
 
-.industries .industry-card p {
+.industries .industries-card p {
   color: #666;
   margin-bottom: 1.5rem;
   line-height: 1.6;
 }
 
-.industries .industry-card ul {
+.industries .industries-card ul {
   list-style: none;
   padding: 0;
 }
 
-.industries .industry-card li {
+.industries .industries-card li {
   padding: 0.5rem 0;
   color: #555;
   position: relative;
   padding-left: 1.5rem;
 }
 
-.industries .industry-card li::before {
+.industries .industries-card li::before {
   content: "✓";
   position: absolute;
   left: 0;
@@ -137,7 +137,7 @@
   font-weight: bold;
 }
 
-.industries .industry-card .container {
+.industries .industries-card .container {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -151,7 +151,7 @@
   border-radius: 12px 12px 0 0;
 }
 
-.industries .industry-card .container::before {
+.industries .industries-card .container::before {
   content: '';
   position: absolute;
   top: 0;
@@ -163,20 +163,20 @@
   border-radius: 12px 12px 0 0;
 }
 
-.industries .industry-card .industry-icon,
-.industries .industry-card .container h3 {
+.industries .industries-card .industries-icon,
+.industries .industries-card .container h3 {
   position: relative;
   z-index: 2;
   color: white;
 }
 
-.industries .industry-card .industry-icon {
+.industries .industries-card .industries-icon {
   color: white;
   margin-bottom: 1rem;
   filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.8));
 }
 
-.industries .industry-card .container h3 {
+.industries .industries-card .container h3 {
   font-size: 1.5rem;
   margin-bottom: 0;
   color: white;
@@ -185,7 +185,7 @@
   letter-spacing: 0.5px;
 }
 
-.industries .industry-card .content-section {
+.industries .industries-card .content-section {
   padding: 2rem;
   background: white;
 }
@@ -286,10 +286,11 @@
   padding: 30px 20px;
   color: white;
   position: relative;
-  height: 180px;
+  height: 200px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  max-width: 2800px;
 }
 
 .service-card-title {
@@ -299,9 +300,11 @@
 }
 
 .service-tags {
-  font-size: 0.8rem;
+  color: white;
+  font-size: 1rem;
   line-height: 1.5;
   opacity: 0.9;
+  text-transform: uppercase;
 }
 
 .service-card-content {

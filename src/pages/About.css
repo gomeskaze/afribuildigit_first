@@ -303,7 +303,7 @@
   padding: 4rem 0;
 }
 
-.story-services .solutions-content {
+.story-services .solution-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
@@ -312,23 +312,23 @@
   margin: 0 auto;
 }
 
-.story-services .solutions-image {
+.story-services .solution-image {
   text-align: center;
 }
 
-.story-services .solutions-image img {
+.story-services .solution-image img {
   max-width: 100%;
   height: auto;
   border-radius: 12px;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
 }
 
-.story-services .solutions-text {
+.story-services .solution-text {
   text-align: left;
   font-family: Arial, sans-serif;
 }
 
-.story-services .solutions-title {
+.story-services .solution-title {
   font-size: 2.5rem;
   font-weight: 700;
   color: var(--text-dark);
@@ -336,12 +336,25 @@
   font-family: Arial, sans-serif;
   line-height: 1.2;
 }
+.story-services .solution-subtitle {
+  display: inline-block;
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
 
-.story-services .solutions-description {
+.story-services .solution-description {
   font-family: Arial, sans-serif;
 }
 
-.story-services .solutions-description p {
+.story-services .solution-description p {
   font-size: 1rem;
   line-height: 1.5;
   color: var(--dark-color);
@@ -374,21 +387,21 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  .story-services .solutions-content {
+  .story-services .solution-content {
     grid-template-columns: 1fr;
     gap: 2rem;
     text-align: center;
   }
 
-  .story-services .solutions-text {
+  .story-services .solution-text {
     text-align: center;
   }
 
-  .story-services .solutions-title {
+  .story-services .solution-title {
     font-size: 2rem;
   }
 
-  .story-services .solutions-description p {
+  .story-services .solution-description p {
     text-align: center;
   }
 }

@@ -11,6 +11,7 @@ const Industries = () => {
       icon: Heart,
       title: t('healthcare'),
       description: t('healthcareDesc'),
+      tags: [],
       solutions: [t('healthcarediseasePredict'), t('healthcarePatientRecords'), t('healthcareResourceOpt')],
       image: "/images/healthcare-bg.png",
       link: "/industries/healthcare" // Add link for each industry
@@ -19,6 +20,7 @@ const Industries = () => {
       icon: DollarSign,
       title: t('finance'),
       description: t('financeDesc'),
+      tags: [],
       solutions: [t('financeFraudDetection'), t('financeRiskAnalysis'), t('financeAlgorithmicTrading')],
       image: "/images/finance-bg.png",
       link: "/industries/finance"
@@ -27,6 +29,7 @@ const Industries = () => {
       icon: ShoppingCart,
       title: t('retail'),
       description: t('retailDesc'),
+      tags: [],
       solutions: [t('retailProductRecommendation'), t('retailBehavioralAnalysis'), t('retailInventoryOpt')],
       image: "/images/retail-bg.png",
       link: "/industries/retail"
@@ -35,6 +38,13 @@ const Industries = () => {
       icon: Factory,
       title: t('manufacturing'),
       description: t('manufacturingDesc'),
+      tags: [
+        'Product Design and Development',
+        'Production Digitalization',
+        'Sustainable Manufacturing',
+        'Supply Chain Management',
+        'Workforce Management'
+      ],
       solutions: [t('ManufacturingPredict'), t('ManufacturingSupplyChainOpt'), t('ManufacturingAutomatedQuality')],
       image: "/images/manufacturing-bg.png",
       link: "/industries/manufacturing"
@@ -43,6 +53,7 @@ const Industries = () => {
       icon: Sun,
       title: t('energy'),
       description: t('energyDesc'),
+      tags: [],
       solutions: [t('EnergyApps'), t('EnergyAiDetection'), t('EnergyReporting')],
       image: "/images/energy-bg.png",
       link: "/industries/energy"
@@ -51,6 +62,7 @@ const Industries = () => {
       icon: Bus,
       title: t('transport'),
       description: t('transportDesc'),
+      tags: [],
       solutions: [t('transportOptimisation'), t('transportSatisfaction'), t('transportData')],
       image: "/images/transport-bg.png",
       link: "/industries/transport"
@@ -59,6 +71,7 @@ const Industries = () => {
       icon: Sprout,
       title: t('agritech'),
       description: t('agritechDesc'),
+      tags: [],
       solutions: [t('agritechData'), t('agritechEmobility'), t('agritechAutomation')],
       image: "/images/agritech-bg.png",
       link: "/industries/agritech"
@@ -67,6 +80,7 @@ const Industries = () => {
       icon: GraduationCap,
       title: t('education'),
       description: t('educationDesc'),
+      tags: [],
       solutions: [t('educationApp'), t('educationLearning'), t('educationSolutions')],
       image: "/images/education-bg.png",
       link: "/industries/education"
@@ -75,6 +89,7 @@ const Industries = () => {
       icon: Building2,
       title: t('construction'),
       description: t('constructionDesc'),
+      tags: [],
       solutions: [t('constructionApp'), t('constructionLearning'), t('constructionSolutions')],
       image: "/images/construction-bg.png",
       link: "/industries/construction"
@@ -83,6 +98,7 @@ const Industries = () => {
       icon: Car,
       title: t('automotive'),
       description: t('automotiveDesc'),
+      tags: [],
       solutions: [t('constructionApp'), t('constructionLearning'), t('constructionSolutions')],
       image: "/images/automotive-bg.png",
       link: "/industries/automotive"
@@ -160,13 +176,18 @@ const Industries = () => {
         <div className="container">
           <div className="grid grid-2">
             {industries.map((industry, index) => (
-              <a key={index} href={industry.link} className="industry-link">
-                <div className="card industry-card">
-                  <div className="service-card-image" style={{ backgroundImage: `url(${industry.image})` }}>
-                    <div className="industry-icon">
-                      <industry.icon size={48} />
+              <a key={index} href={industry.link} className="industries-link">
+                <div className="card industries-card">
+                  <div className="container" style={{ backgroundImage: `url(${industry.image})` }}>
+                    <div className="industries-icon">
+                      <industry.icon size={30} />
                     </div>
                     <h3>{industry.title}</h3> 
+                    <div className="service-tags">
+                {industry.tags.map((tag, i) => (
+                  <span key={i}>/ {tag} </span>
+                ))}
+              </div>
                   </div>
                   <div className="content-section">
                     <p>{industry.description}</p>
@@ -175,6 +196,9 @@ const Industries = () => {
                         <li key={idx}>{solution}</li>
                       ))}
                     </ul>
+                    <a href="#" className="view-more">
+                      View More <span>→</span>
+                    </a>
                   </div>
                 </div>
               </a>

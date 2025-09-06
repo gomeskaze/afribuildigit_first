@@ -180,23 +180,23 @@ const About = () => {
           <div className="section-header">
             <h2>{t('ourHistory')}</h2>
           </div>
-          <div className="solutions-content">
-            <div className="solutions-image">
+          <div className="solution-content">
+            <div className="solution-image">
               <img src="/images/history.jpg" alt="Équipe en collaboration" />
             </div>
-            <div className="solutions-text">
-              <span className="solutions-subtitle">{t('ourStoryTitle')}</span>
-              <div className="solutions-description">
+            <div className="solution-text">
+              <span className="solution-subtitle">{t('ourStoryTitle')}</span>
+              <div className="solution-description">
                 <p>{t('ourStoryParagraph1')}</p>
                 <p>{t('ourStoryParagraph2')}</p>
               </div>
             </div>
           </div>
 
-          <div className="solutions-content">
-            <div className="solutions-text">
-              <span className="solutions-subtitle">{t('ourStoryTitle')}</span>
-              <div className="solutions-description">
+          <div className="solution-content">
+            <div className="solution-text">
+              <span className="solution-subtitle">{t('ourStoryTitle')}</span>
+              <div className="solution-description">
                 <p>{t('ourStoryMissionIntro')}</p>
                 <ul className="mission-list">
                   <li>{t('missionPoint1')}</li>
@@ -207,7 +207,7 @@ const About = () => {
                 <p>{t('ourStoryConclusion')}</p>
               </div>
             </div>
-            <div className="solutions-image">
+            <div className="solution-image">
               <img src="/images/history.png" alt="Équipe en collaboration" />
             </div>
           </div>
